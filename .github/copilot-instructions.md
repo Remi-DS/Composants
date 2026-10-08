@@ -14,7 +14,8 @@ Ne jamais inventer une règle, un composant, une variante, un token, un comporte
 
 ## Réutilisation
 
-- Réutiliser les composants Canopée existants.
+- Vérifier la disponibilité et l'API des composants dans le dépôt open source [AxaFrance/design-system](https://github.com/AxaFrance/design-system), puis réutiliser les composants Canopée existants.
+- Utiliser systématiquement le composant React Canopée disponible et adapté au besoin. Ne pas recréer en HTML/CSS un composant déjà disponible en React. Une implémentation spécifique n'est permise que si aucun composant React adapté n'existe ou si celui-ci n'est pas disponible dans le contexte du projet ; signaler alors explicitement le motif et les éléments concernés.
 - Ne pas créer une variante simplement parce que l'implémentation technique le permet.
 - Une propriété d'API n'est pas une autorisation de design.
 - Ne pas extrapoler une règle Prospect vers Client, ou Desktop vers Mobile, sans preuve.
