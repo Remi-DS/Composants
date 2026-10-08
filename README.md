@@ -25,6 +25,9 @@ En cas d'information absente, contradictoire ou non confirmée, elle doit le sig
 - `.github/copilot-instructions.md` — règles générales pour les agents.
 - `.github/instructions/design-system.instructions.md` — règles de documentation et de provenance.
 - Documentation composant existante — référence détaillée sans duplication inutile.
+- [Descriptions Zeroheight](./descriptions-zeroheight.md) — relevé sourcé des introductions
+  de 57 entrées de composants Client et Prospect, consultées le 8 octobre 2026.
+- [Gabarit de synthèse](./gabarit-synthese.md) — structure des fiches techniques et règles de rédaction.
 
 ## Statuts
 
@@ -125,6 +128,9 @@ La documentation du Button Primary suit un format antérieur, issu de Zeroheight
 
 - Les règles d'usage, la microcopy et la cardinalité par composant restent à compléter depuis
   Zeroheight ; elles sont aujourd'hui majoritairement `NON_CONFIRMÉ`.
+- Le relevé Zeroheight complète les rôles et intentions, sans modifier les fiches techniques
+  existantes. Il ne couvre pas les onglets détaillés d'usage, de contenu ou d'accessibilité ;
+  ses écarts entre univers et ses liens problématiques restent explicitement signalés.
 - Les fiches ne certifient aucune conformité WCAG ou RGAA : elles listent uniquement les
   mécanismes d'accessibilité réellement présents dans le code.
 - Les valeurs de style proviennent du CSS source et peuvent évoluer d'une version à l'autre.
