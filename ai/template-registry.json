@@ -1,0 +1,11 @@
+{
+  "$schema":"https://json-schema.org/draft/2020-12/schema",
+  "registryVersion":"0.1.0",
+  "designSystem":"Canopée",
+  "templates":[
+    {"id":"form","name":"Formulaire","path":"templates/form.md","status":"RECOMMANDATION","intendedFor":["prototype","user-testing"]},
+    {"id":"product-page","name":"Page produit","path":"templates/product-page.md","status":"RECOMMANDATION","intendedFor":["prototype","user-testing"]},
+    {"id":"article-page","name":"Page article","path":"templates/article-page.md","status":"RECOMMANDATION","intendedFor":["prototype","user-testing"]},
+    {"id":"journey-step","name":"Étape de parcours","path":"templates/journey-step.md","status":"RECOMMANDATION","intendedFor":["prototype","user-testing"]}
+  ]
+}
