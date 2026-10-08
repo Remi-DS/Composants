@@ -1,43 +1,44 @@
-# Composants — Design System Canopée
+# Canopée — AI-ready Design System
 
-Base de connaissance destinée à l'exploitation par une IA de conception d'interfaces.
-Chaque fiche décrit un composant Canopée : rôle, intégration React, propriétés, variantes,
-états, anatomie, styles et tokens, écarts entre univers, accessibilité et limites.
+Ce dépôt constitue la couche de connaissance exploitable par des agents IA pour concevoir des interfaces conformes au Design System Canopée.
 
-## Principe de fiabilité
+## Rôle des sources
 
-Chaque information est qualifiée par un statut, afin de ne jamais confondre une capacité
-technique avec une règle de design :
+- **Storybook** : source de vérité pour l'implémentation et le rendu lorsque cette information y est disponible.
+- **Zeroheight** : documentation humaine des règles de conception et d'usage.
+- **Figma / exports de tokens** : source visuelle et données comparatives, lorsqu'elles sont explicitement identifiées.
+- **Ce dépôt** : règles de raisonnement IA, registre des composants, provenance, contraintes et validations.
 
-| Statut | Signification |
-|---|---|
-| `DOCUMENTÉ` | Règle écrite explicitement dans la documentation d'une story (MDX). |
-| `IMPLÉMENTÉ` | Comportement constaté dans le code React ou CSS publié. |
-| `OBSERVÉ` | Valeur relevée dans le CSS ou les tokens. |
-| `RECOMMANDATION` | Consigne d'intégration proposée par la fiche, et non une règle Canopée. |
-| `NON_CONFIRMÉ` | Information absente des sources accessibles. |
+Une propriété technique disponible dans une API n'est pas automatiquement une permission de design.
 
-Règles appliquées à l'ensemble des fiches :
+## Règle fondamentale
 
-- aucune règle de design n'est inventée ni déduite d'une possibilité de l'API ;
-- les règles d'usage design (quand utiliser, cardinalité par page, microcopy) ne figurent pas
-  dans les sources techniques publiques : elles sont marquées `NON_CONFIRMÉ` et relèvent du
-  Zeroheight de l'univers concerné ;
-- les contradictions entre sources ou entre univers sont conservées et signalées, jamais
-  arbitrées.
+> Une IA ne doit jamais inventer une règle du Design System.
 
-## Sources
+En cas d'information absente, contradictoire ou non confirmée, elle doit le signaler plutôt que compléter par déduction.
 
-| Source | Portée |
-|---|---|
-| Dépôt `AxaFrance/design-system` | Code React (`packages/canopee-react`), CSS et tokens (`packages/canopee-css`), stories et MDX (`apps/apollo-stories` pour Prospect, `apps/look-and-feel-stories` pour Client). |
-| Storybook Prospect | https://axafrance.github.io/design-system/prospect/react/latest/ |
-| Storybook Client | https://axafrance.github.io/design-system/client/react/latest/ |
-| Zeroheight | Règles d'usage design ; non accessibles publiquement, d'où les mentions `NON_CONFIRMÉ`. |
+## Structure
 
-Collecte des sources techniques : 8 octobre 2026. Les sources sont en version `latest`, donc
-mutables : revérifier le Storybook de la version installée après une mise à jour.
+- `ai/component-registry.json` — registre machine-readable des composants.
+- `ai/prototype-brief.md` — brief type pour générer un prototype.
+- `ai/validation-checklist.md` — checklist de conformité.
+- `.github/copilot-instructions.md` — règles générales pour les agents.
+- `.github/instructions/design-system.instructions.md` — règles de documentation et de provenance.
+- Documentation composant existante — référence détaillée sans duplication inutile.
 
+## Statuts
+
+Les connaissances doivent conserver leur niveau de certitude : documenté, implémenté, observé, recommandation ou non confirmé.
+
+## Workflow recommandé
+
+1. Identifier les composants nécessaires.
+2. Consulter le registre et la documentation correspondante.
+3. Générer en réutilisant les composants existants.
+4. Vérifier variantes, états, responsive et accessibilité.
+5. Signaler explicitement toute hypothèse ou information non confirmée.
+
+Il est préférable de commencer avec 10–15 composants représentatifs avant d'étendre le registre à l'ensemble du Design System.
 ## Button Primary
 
 La documentation du Button Primary suit un format antérieur, issu de Zeroheight et du Storybook :
