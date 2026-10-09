@@ -20,6 +20,14 @@ En cas d'information absente, contradictoire ou non confirmée, elle doit le sig
 ## Structure
 
 - `ai/component-registry.json` — registre machine-readable des composants.
+- Exports Figma structurels et correspondances avec le registre du dépôt :
+  - `ai/figma-atoms-export.json` — page « Atoms ».
+  - `ai/figma-actions-export.json` — page « Actions ».
+  - `ai/figma-forms-export.json` — page « Forms ».
+  - `ai/figma-navigation-export.json` — page « Navigation ».
+  - `ai/figma-content-export.json` — page « Content ».
+  - `ai/figma-progression-export.json` — page « Progression ».
+  - `ai/figma-structure-export.json` — page « Structure ».
 - `ai/prototype-brief.md` — brief type pour reproduire une maquette en prototype.
 - `ai/mockup-to-prototype-workflow.md` — workflow détaillé de la référence à la livraison.
 - `ai/validation-checklist.md` — checklist de fidélité visuelle et fonctionnelle du prototype.

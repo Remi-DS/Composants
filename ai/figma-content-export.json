@@ -1,0 +1,2379 @@
+{
+  "formatVersion": "1.0.0",
+  "designSystem": "Canopée",
+  "source": {
+    "product": "Figma",
+    "method": "Figma MCP get_metadata",
+    "fileKey": "vwprvN2ELfI50pjU6MK1Ea",
+    "pageId": "17278:53098",
+    "pageName": "-> Content",
+    "url": "https://www.figma.com/design/vwprvN2ELfI50pjU6MK1Ea/%E2%9C%A8-B2C-%E2%80%A2-Design-System-Canop%C3%A9e?m=dev&node-id=17278-53098",
+    "exportedAt": "2026-10-09T09:26:45+02:00"
+  },
+  "scope": {
+    "description": "Structure exposée par le MCP pour la page « -> Content » et correspondances vers ai/component-registry.json.",
+    "limitations": [
+      "Le MCP get_metadata fournit types de nœud, identifiants, noms, coordonnées et dimensions ; les styles détaillés, variables, interactions et vecteurs ne sont pas inclus dans cette réponse.",
+      "Les entrées RECOMMANDATION et NON_CONFIRMÉ ne sont pas des équivalences certifiées.",
+      "Seules les pages Figma dont le nom commence par « -> » sont exportées."
+    ]
+  },
+  "statistics": {
+    "nodeCount": 235,
+    "nodeTypes": {
+      "canvas": 1,
+      "frame": 41,
+      "instance": 96,
+      "symbol": 94,
+      "text": 3
+    },
+    "topLevelSections": 11,
+    "mappings": 11,
+    "mappedToRepository": 11,
+    "unresolved": 0
+  },
+  "repositoryMappings": [
+    {
+      "figmaNodeId": "17278:53102",
+      "figmaName": "Content Item Mono",
+      "status": "OBSERVÉ",
+      "relationship": "name-alias",
+      "confidence": 0.98,
+      "evidence": "Content Item Mono and nested Content_Item_Mono map to repository ContentItemMono.",
+      "repositoryComponent": {
+        "id": "content-item-mono",
+        "name": "ContentItemMono",
+        "documentation": "content-item-mono-synthese.md"
+      }
+    },
+    {
+      "figmaNodeId": "17278:53111",
+      "figmaName": "Content Item Duo",
+      "status": "OBSERVÉ",
+      "relationship": "name-alias",
+      "confidence": 0.98,
+      "evidence": "Content Item Duo and nested Content_Item_Duo map to repository ContentItemDuo.",
+      "repositoryComponent": {
+        "id": "content-item-duo",
+        "name": "ContentItemDuo",
+        "documentation": "content-item-duo-synthese.md"
+      }
+    },
+    {
+      "figmaNodeId": "17278:53119",
+      "figmaName": "Content Item Duo Action",
+      "status": "OBSERVÉ",
+      "relationship": "name-alias",
+      "confidence": 0.98,
+      "evidence": "Content Item Duo Action and nested Content_Item_Duo_Action map to repository ContentItemDuoAction.",
+      "repositoryComponent": {
+        "id": "content-item-duo-action",
+        "name": "ContentItemDuoAction",
+        "documentation": "content-item-duo-action-synthese.md"
+      }
+    },
+    {
+      "figmaNodeId": "17278:53125",
+      "figmaName": "Template Content Item Mono",
+      "status": "OBSERVÉ",
+      "relationship": "template-of",
+      "confidence": 0.88,
+      "evidence": "Template Content Item Mono is a Figma composition based on this component family; it is a usage example, not a new repository component.",
+      "repositoryComponent": {
+        "id": "content-item-mono",
+        "name": "ContentItemMono",
+        "documentation": "content-item-mono-synthese.md"
+      }
+    },
+    {
+      "figmaNodeId": "17278:53146",
+      "figmaName": "Template Content Item Duo",
+      "status": "OBSERVÉ",
+      "relationship": "template-of",
+      "confidence": 0.88,
+      "evidence": "Template Content Item Duo is a Figma composition based on this component family; it is a usage example, not a new repository component.",
+      "repositoryComponent": {
+        "id": "content-item-duo",
+        "name": "ContentItemDuo",
+        "documentation": "content-item-duo-synthese.md"
+      }
+    },
+    {
+      "figmaNodeId": "17278:53177",
+      "figmaName": "Template Content Item Duo Action",
+      "status": "OBSERVÉ",
+      "relationship": "template-of",
+      "confidence": 0.88,
+      "evidence": "Template Content Item Duo Action is a Figma composition based on this component family; it is a usage example, not a new repository component.",
+      "repositoryComponent": {
+        "id": "content-item-duo-action",
+        "name": "ContentItemDuoAction",
+        "documentation": "content-item-duo-action-synthese.md"
+      }
+    },
+    {
+      "figmaNodeId": "19421:10008",
+      "figmaName": "Template Data Agent",
+      "status": "OBSERVÉ",
+      "relationship": "template-of",
+      "confidence": 0.83,
+      "evidence": "Template Data Agent is a composed example containing Accordion; the link to DataAgent is based on the explicit Figma section name, not its nested layer name.",
+      "repositoryComponent": {
+        "id": "data-agent",
+        "name": "DataAgent",
+        "documentation": "data-agent-synthese.md"
+      }
+    },
+    {
+      "figmaNodeId": "17278:54170",
+      "figmaName": "Data Agent",
+      "status": "OBSERVÉ",
+      "relationship": "same-component",
+      "confidence": 0.98,
+      "evidence": "Data Agent and nested Data_Agent map to repository DataAgent.",
+      "repositoryComponent": {
+        "id": "data-agent",
+        "name": "DataAgent",
+        "documentation": "data-agent-synthese.md"
+      }
+    },
+    {
+      "figmaNodeId": "18733:51839",
+      "figmaName": "Message Bar",
+      "status": "OBSERVÉ",
+      "relationship": "name-alias",
+      "confidence": 0.98,
+      "evidence": "Message Bar and nested Message_Bar map to repository MessageBar.",
+      "repositoryComponent": {
+        "id": "message-bar",
+        "name": "MessageBar",
+        "documentation": "message-bar-synthese.md"
+      }
+    },
+    {
+      "figmaNodeId": "17278:54341",
+      "figmaName": "Message",
+      "status": "OBSERVÉ",
+      "relationship": "same-component",
+      "confidence": 0.99,
+      "evidence": "Message section matches the repository entry.",
+      "repositoryComponent": {
+        "id": "message",
+        "name": "Message",
+        "documentation": "message-synthese.md"
+      }
+    },
+    {
+      "figmaNodeId": "33668:11110",
+      "figmaName": "Multi_Message",
+      "status": "OBSERVÉ",
+      "relationship": "name-alias",
+      "confidence": 0.98,
+      "evidence": "Multi_Message maps to repository MultiMessage.",
+      "repositoryComponent": {
+        "id": "multi-message",
+        "name": "MultiMessage",
+        "documentation": "multi-message-synthese.md"
+      }
+    }
+  ],
+  "figmaPageTree": {
+    "type": "canvas",
+    "id": "17278:53098",
+    "name": "-> Content",
+    "x": 0,
+    "y": 0,
+    "width": 0,
+    "height": 0,
+    "children": [
+      {
+        "type": "frame",
+        "id": "17278:53102",
+        "name": "Content Item Mono",
+        "x": 0,
+        "y": 2375,
+        "width": 1781,
+        "height": 1112,
+        "children": [
+          {
+            "type": "instance",
+            "id": "28060:24384",
+            "name": "Header Composants",
+            "x": 32,
+            "y": 32,
+            "width": 1717,
+            "height": 300
+          },
+          {
+            "type": "instance",
+            "id": "28060:24385",
+            "name": "Message",
+            "x": 32,
+            "y": 364,
+            "width": 1717,
+            "height": 56
+          },
+          {
+            "type": "frame",
+            "id": "204:4544",
+            "name": "Content_Item_Mono",
+            "x": 32,
+            "y": 452,
+            "width": 1717,
+            "height": 628,
+            "children": [
+              {
+                "type": "symbol",
+                "id": "204:4545",
+                "name": "Theme=Client, Device=--desk, Style=--w-picture, Size=--M",
+                "x": 903,
+                "y": 231,
+                "width": 311,
+                "height": 48
+              },
+              {
+                "type": "symbol",
+                "id": "204:4551",
+                "name": "Theme=Client, Device=--desk, Style=--w-picture, Size=--L",
+                "x": 903,
+                "y": 145,
+                "width": 243,
+                "height": 55
+              },
+              {
+                "type": "symbol",
+                "id": "205:5902",
+                "name": "Theme=Prospect, Device=--desk, Style=--w-picture, Size=--L",
+                "x": 81,
+                "y": 145,
+                "width": 246,
+                "height": 55
+              },
+              {
+                "type": "symbol",
+                "id": "205:5966",
+                "name": "Theme=Prospect, Device=--desk, Style=--w-picture, Size=--M",
+                "x": 81,
+                "y": 231,
+                "width": 311,
+                "height": 48
+              },
+              {
+                "type": "symbol",
+                "id": "205:5919",
+                "name": "Theme=Prospect, Device=--mob, Style=--w-picture, Size=--L",
+                "x": 416,
+                "y": 145,
+                "width": 225,
+                "height": 48
+              },
+              {
+                "type": "symbol",
+                "id": "205:5975",
+                "name": "Theme=Prospect, Device=--mob, Style=--w-picture, Size=--M",
+                "x": 416,
+                "y": 231,
+                "width": 311,
+                "height": 48
+              },
+              {
+                "type": "symbol",
+                "id": "204:4557",
+                "name": "Theme=Client, Device=--mob, Style=--w-picture, Size=--L",
+                "x": 1238,
+                "y": 145,
+                "width": 213,
+                "height": 48
+              },
+              {
+                "type": "symbol",
+                "id": "204:4563",
+                "name": "Theme=Client, Device=--desk, Style=--w-stick, Size=--M",
+                "x": 905,
+                "y": 419,
+                "width": 311,
+                "height": 42
+              },
+              {
+                "type": "symbol",
+                "id": "215:1599",
+                "name": "Theme=Prospect, Device=--desk, Style=--w-stick, Size=--M",
+                "x": 81,
+                "y": 409,
+                "width": 311,
+                "height": 42
+              },
+              {
+                "type": "symbol",
+                "id": "204:4590",
+                "name": "Theme=Client, Device=--desk, Style=--default, Size=--M",
+                "x": 903,
+                "y": 311,
+                "width": 311,
+                "height": 70
+              },
+              {
+                "type": "symbol",
+                "id": "215:1621",
+                "name": "Theme=Prospect, Device=--desk, Style=--default, Size=--M",
+                "x": 81,
+                "y": 311,
+                "width": 311,
+                "height": 70
+              },
+              {
+                "type": "symbol",
+                "id": "204:4598",
+                "name": "Theme=Client, Device=--mob, Style=--default, Size=--M",
+                "x": 1238,
+                "y": 311,
+                "width": 311,
+                "height": 62
+              },
+              {
+                "type": "symbol",
+                "id": "215:1629",
+                "name": "Theme=Prospect, Device=--mob, Style=--default, Size=--M",
+                "x": 416,
+                "y": 311,
+                "width": 311,
+                "height": 62
+              },
+              {
+                "type": "symbol",
+                "id": "204:4625",
+                "name": "Theme=Client, Device=--mob, Style=--w-picture, Size=--M",
+                "x": 1238,
+                "y": 231,
+                "width": 311,
+                "height": 48
+              },
+              {
+                "type": "symbol",
+                "id": "204:4631",
+                "name": "Theme=Client, Device=--mob, Style=--w-stick, Size=--M",
+                "x": 1240,
+                "y": 419,
+                "width": 311,
+                "height": 38
+              },
+              {
+                "type": "symbol",
+                "id": "215:1651",
+                "name": "Theme=Prospect, Device=--mob, Style=--w-stick, Size=--M",
+                "x": 416,
+                "y": 409,
+                "width": 311,
+                "height": 38
+              }
+            ]
+          },
+          {
+            "type": "instance",
+            "id": "17278:53103",
+            "name": "UI DS",
+            "x": 120,
+            "y": 504,
+            "width": 646,
+            "height": 52
+          },
+          {
+            "type": "instance",
+            "id": "17278:53104",
+            "name": "UI DS",
+            "x": 955,
+            "y": 504,
+            "width": 646,
+            "height": 52
+          },
+          {
+            "type": "instance",
+            "id": "17278:53105",
+            "name": "UI DS",
+            "x": 913,
+            "y": 940,
+            "width": 313,
+            "height": 120
+          },
+          {
+            "type": "instance",
+            "id": "17278:53106",
+            "name": "UI DS",
+            "x": 69,
+            "y": 940,
+            "width": 313,
+            "height": 120
+          },
+          {
+            "type": "instance",
+            "id": "17278:53107",
+            "name": "UI DS",
+            "x": 1246,
+            "y": 940,
+            "width": 313,
+            "height": 120
+          },
+          {
+            "type": "instance",
+            "id": "17278:53108",
+            "name": "UI DS",
+            "x": 411,
+            "y": 940,
+            "width": 313,
+            "height": 120
+          }
+        ]
+      },
+      {
+        "type": "frame",
+        "id": "17278:53111",
+        "name": "Content Item Duo",
+        "x": 1861,
+        "y": 2375,
+        "width": 1472,
+        "height": 1206,
+        "children": [
+          {
+            "type": "instance",
+            "id": "28060:24429",
+            "name": "Header Composants",
+            "x": 32,
+            "y": 32,
+            "width": 1408,
+            "height": 300
+          },
+          {
+            "type": "instance",
+            "id": "28060:24430",
+            "name": "Message",
+            "x": 32,
+            "y": 364,
+            "width": 1408,
+            "height": 56
+          },
+          {
+            "type": "frame",
+            "id": "205:4812",
+            "name": "Content_Item_Duo",
+            "x": 85,
+            "y": 452,
+            "width": 1302,
+            "height": 722,
+            "children": [
+              {
+                "type": "symbol",
+                "id": "205:4813",
+                "name": "Theme=Client, Device=--desk, Content Orientation=--horizontal, Size=--large",
+                "x": 712.5,
+                "y": 112,
+                "width": 531,
+                "height": 55
+              },
+              {
+                "type": "symbol",
+                "id": "221:1895",
+                "name": "Theme=Prospect, Device=--desk, Content Orientation=--horizontal, Size=--large",
+                "x": 69.5,
+                "y": 112,
+                "width": 531,
+                "height": 55
+              },
+              {
+                "type": "symbol",
+                "id": "205:4821",
+                "name": "Theme=Client, Device=--desk, Content Orientation=--vertical, Size=--large",
+                "x": 712.5,
+                "y": 339,
+                "width": 525,
+                "height": 55
+              },
+              {
+                "type": "symbol",
+                "id": "221:1903",
+                "name": "Theme=Prospect, Device=--desk, Content Orientation=--vertical, Size=--large",
+                "x": 69.5,
+                "y": 339,
+                "width": 531,
+                "height": 55
+              },
+              {
+                "type": "symbol",
+                "id": "205:4829",
+                "name": "Theme=Client, Device=--mob, Content Orientation=--vertical, Size=--small",
+                "x": 712.5,
+                "y": 594,
+                "width": 531,
+                "height": 52
+              },
+              {
+                "type": "symbol",
+                "id": "221:1911",
+                "name": "Theme=Prospect, Device=--mob, Content Orientation=--vertical, Size=--small",
+                "x": 69.5,
+                "y": 582,
+                "width": 531,
+                "height": 52
+              },
+              {
+                "type": "symbol",
+                "id": "205:4837",
+                "name": "Theme=Client, Device=--mob, Content Orientation=--horizontal, Size=--small",
+                "x": 712.5,
+                "y": 482,
+                "width": 531,
+                "height": 52
+              },
+              {
+                "type": "symbol",
+                "id": "221:1919",
+                "name": "Theme=Prospect, Device=--mob, Content Orientation=--horizontal, Size=--small",
+                "x": 69.5,
+                "y": 482,
+                "width": 531,
+                "height": 52
+              },
+              {
+                "type": "symbol",
+                "id": "205:4844",
+                "name": "Theme=Client, Device=--desk, Content Orientation=--horizontal, Size=--small",
+                "x": 712.5,
+                "y": 227,
+                "width": 525,
+                "height": 52
+              },
+              {
+                "type": "symbol",
+                "id": "221:1926",
+                "name": "Theme=Prospect, Device=--desk, Content Orientation=--horizontal, Size=--small",
+                "x": 69.5,
+                "y": 227,
+                "width": 531,
+                "height": 52
+              }
+            ]
+          },
+          {
+            "type": "instance",
+            "id": "17278:53112",
+            "name": "UI DS",
+            "x": 770,
+            "y": 497,
+            "width": 594,
+            "height": 52
+          },
+          {
+            "type": "instance",
+            "id": "17278:53113",
+            "name": "UI DS",
+            "x": 127,
+            "y": 497,
+            "width": 594,
+            "height": 52
+          },
+          {
+            "type": "instance",
+            "id": "17278:53114",
+            "name": "UI DS",
+            "x": 1345,
+            "y": 911,
+            "width": 111,
+            "height": 216
+          },
+          {
+            "type": "instance",
+            "id": "17278:53115",
+            "name": "UI DS",
+            "x": 1345,
+            "y": 564,
+            "width": 111,
+            "height": 314
+          }
+        ]
+      },
+      {
+        "type": "frame",
+        "id": "17278:53119",
+        "name": "Content Item Duo Action",
+        "x": 3413,
+        "y": 2375,
+        "width": 1362,
+        "height": 1028,
+        "children": [
+          {
+            "type": "instance",
+            "id": "28060:24474",
+            "name": "Header Composants",
+            "x": 32,
+            "y": 32,
+            "width": 1298,
+            "height": 300
+          },
+          {
+            "type": "instance",
+            "id": "28060:24475",
+            "name": "Message",
+            "x": 32,
+            "y": 364,
+            "width": 1298,
+            "height": 56
+          },
+          {
+            "type": "frame",
+            "id": "205:5007",
+            "name": "Content_Item_Duo_Action",
+            "x": 32,
+            "y": 452,
+            "width": 1298,
+            "height": 544,
+            "children": [
+              {
+                "type": "symbol",
+                "id": "205:5008",
+                "name": "Theme=Client, Device=--desk, Action=--edit",
+                "x": 691,
+                "y": 311,
+                "width": 512,
+                "height": 70
+              },
+              {
+                "type": "symbol",
+                "id": "633:10539",
+                "name": "Theme=Prospect, Device=--desk, Action=--edit",
+                "x": 84,
+                "y": 308,
+                "width": 465,
+                "height": 70
+              },
+              {
+                "type": "symbol",
+                "id": "633:10634",
+                "name": "Theme=Prospect, Device=--mob, Action=--edit",
+                "x": 84,
+                "y": 407,
+                "width": 465,
+                "height": 64
+              },
+              {
+                "type": "symbol",
+                "id": "205:5021",
+                "name": "Theme=Client, Device=--mob, Action=--edit",
+                "x": 687,
+                "y": 394,
+                "width": 517,
+                "height": 64
+              },
+              {
+                "type": "symbol",
+                "id": "205:5035",
+                "name": "Theme=Client, Device=--desk, Action=--toggle",
+                "x": 687,
+                "y": 121,
+                "width": 512,
+                "height": 70
+              },
+              {
+                "type": "symbol",
+                "id": "205:5055",
+                "name": "Theme=Client, Device=--mob, Action=--toggle",
+                "x": 687,
+                "y": 204,
+                "width": 512,
+                "height": 62
+              },
+              {
+                "type": "symbol",
+                "id": "632:10355",
+                "name": "Theme=Prospect, Device=--desk, Action=--toggle",
+                "x": 84,
+                "y": 122,
+                "width": 465,
+                "height": 70
+              },
+              {
+                "type": "symbol",
+                "id": "632:10370",
+                "name": "Theme=Prospect, Device=--mob, Action=--toggle",
+                "x": 84,
+                "y": 199,
+                "width": 465,
+                "height": 62
+              }
+            ]
+          },
+          {
+            "type": "instance",
+            "id": "17278:53120",
+            "name": "UI DS",
+            "x": 119,
+            "y": 498,
+            "width": 557,
+            "height": 52
+          },
+          {
+            "type": "instance",
+            "id": "17278:53121",
+            "name": "UI DS",
+            "x": 740,
+            "y": 496,
+            "width": 537,
+            "height": 52
+          }
+        ]
+      },
+      {
+        "type": "frame",
+        "id": "17278:53125",
+        "name": "Template Content Item Mono",
+        "x": -42,
+        "y": 3791,
+        "width": 1823,
+        "height": 874,
+        "children": [
+          {
+            "type": "instance",
+            "id": "17278:55252",
+            "name": "Header Composants",
+            "x": 0,
+            "y": 0,
+            "width": 1823,
+            "height": 250
+          },
+          {
+            "type": "frame",
+            "id": "17278:53127",
+            "name": "Accordion",
+            "x": 0,
+            "y": 250,
+            "width": 1823,
+            "height": 624,
+            "children": [
+              {
+                "type": "frame",
+                "id": "17278:53128",
+                "name": "Frame 2609189",
+                "x": 202,
+                "y": 64,
+                "width": 897,
+                "height": 402,
+                "children": [
+                  {
+                    "type": "frame",
+                    "id": "17278:53129",
+                    "name": "Frame 2608872",
+                    "x": 0,
+                    "y": 0,
+                    "width": 897,
+                    "height": 189,
+                    "children": [
+                      {
+                        "type": "instance",
+                        "id": "17278:53130",
+                        "name": "Content_Item_Mono",
+                        "x": 24,
+                        "y": 24,
+                        "width": 849,
+                        "height": 23
+                      },
+                      {
+                        "type": "instance",
+                        "id": "17278:53131",
+                        "name": "Content_Item_Mono",
+                        "x": 24,
+                        "y": 71,
+                        "width": 849,
+                        "height": 24
+                      },
+                      {
+                        "type": "instance",
+                        "id": "17278:53132",
+                        "name": "Content_Item_Mono",
+                        "x": 24,
+                        "y": 119,
+                        "width": 849,
+                        "height": 46
+                      }
+                    ]
+                  },
+                  {
+                    "type": "frame",
+                    "id": "17278:53133",
+                    "name": "Frame 2608873",
+                    "x": 0,
+                    "y": 213,
+                    "width": 897,
+                    "height": 189,
+                    "children": [
+                      {
+                        "type": "instance",
+                        "id": "17278:53134",
+                        "name": "Content_Item_Mono",
+                        "x": 24,
+                        "y": 24,
+                        "width": 849,
+                        "height": 23
+                      },
+                      {
+                        "type": "instance",
+                        "id": "17278:53135",
+                        "name": "Content_Item_Mono",
+                        "x": 24,
+                        "y": 71,
+                        "width": 849,
+                        "height": 24
+                      },
+                      {
+                        "type": "instance",
+                        "id": "17278:53136",
+                        "name": "Content_Item_Mono",
+                        "x": 24,
+                        "y": 119,
+                        "width": 849,
+                        "height": 46
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "frame",
+                "id": "17278:53137",
+                "name": "Frame 2609190",
+                "x": 1171,
+                "y": 64,
+                "width": 450,
+                "height": 496,
+                "children": [
+                  {
+                    "type": "frame",
+                    "id": "17278:53138",
+                    "name": "Frame 2608872",
+                    "x": 0,
+                    "y": 0,
+                    "width": 450,
+                    "height": 236,
+                    "children": [
+                      {
+                        "type": "instance",
+                        "id": "17278:53139",
+                        "name": "Content_Item_Mono",
+                        "x": 24,
+                        "y": 24,
+                        "width": 402,
+                        "height": 20
+                      },
+                      {
+                        "type": "instance",
+                        "id": "17278:53140",
+                        "name": "Content_Item_Mono",
+                        "x": 24,
+                        "y": 68,
+                        "width": 402,
+                        "height": 40
+                      },
+                      {
+                        "type": "instance",
+                        "id": "17278:53141",
+                        "name": "Content_Item_Mono",
+                        "x": 24,
+                        "y": 132,
+                        "width": 402,
+                        "height": 80
+                      }
+                    ]
+                  },
+                  {
+                    "type": "frame",
+                    "id": "17278:53142",
+                    "name": "Frame 2608873",
+                    "x": 0,
+                    "y": 260,
+                    "width": 450,
+                    "height": 236,
+                    "children": [
+                      {
+                        "type": "instance",
+                        "id": "17278:53143",
+                        "name": "Content_Item_Mono",
+                        "x": 24,
+                        "y": 24,
+                        "width": 402,
+                        "height": 20
+                      },
+                      {
+                        "type": "instance",
+                        "id": "17278:53144",
+                        "name": "Content_Item_Mono",
+                        "x": 24,
+                        "y": 68,
+                        "width": 402,
+                        "height": 40
+                      },
+                      {
+                        "type": "instance",
+                        "id": "17278:53145",
+                        "name": "Content_Item_Mono",
+                        "x": 24,
+                        "y": 132,
+                        "width": 402,
+                        "height": 80
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "frame",
+        "id": "17278:53146",
+        "name": "Template Content Item Duo",
+        "x": 1861,
+        "y": 3791,
+        "width": 1472,
+        "height": 940,
+        "children": [
+          {
+            "type": "instance",
+            "id": "17278:55272",
+            "name": "Header Composants",
+            "x": 0,
+            "y": 0,
+            "width": 1472,
+            "height": 250
+          },
+          {
+            "type": "frame",
+            "id": "17278:53148",
+            "name": "Accordion",
+            "x": 0,
+            "y": 250,
+            "width": 1472,
+            "height": 690,
+            "children": [
+              {
+                "type": "frame",
+                "id": "17278:53149",
+                "name": "Frame 2609189",
+                "x": 334.5,
+                "y": 64,
+                "width": 803,
+                "height": 562,
+                "children": [
+                  {
+                    "type": "frame",
+                    "id": "17278:53150",
+                    "name": "Frame 2608872",
+                    "x": 0,
+                    "y": 0,
+                    "width": 803,
+                    "height": 275,
+                    "children": [
+                      {
+                        "type": "instance",
+                        "id": "17278:53151",
+                        "name": "Content_Item_Duo",
+                        "x": 24,
+                        "y": 24,
+                        "width": 755,
+                        "height": 23
+                      },
+                      {
+                        "type": "instance",
+                        "id": "17278:53152",
+                        "name": "Divider",
+                        "x": 24,
+                        "y": 63,
+                        "width": 755,
+                        "height": 1
+                      },
+                      {
+                        "type": "instance",
+                        "id": "17278:53153",
+                        "name": "Content_Item_Duo",
+                        "x": 24,
+                        "y": 80,
+                        "width": 755,
+                        "height": 23
+                      },
+                      {
+                        "type": "instance",
+                        "id": "17278:53154",
+                        "name": "Divider",
+                        "x": 24,
+                        "y": 119,
+                        "width": 755,
+                        "height": 1
+                      },
+                      {
+                        "type": "instance",
+                        "id": "17278:53155",
+                        "name": "Content_Item_Duo",
+                        "x": 24,
+                        "y": 136,
+                        "width": 755,
+                        "height": 23
+                      },
+                      {
+                        "type": "instance",
+                        "id": "17278:53156",
+                        "name": "Divider",
+                        "x": 24,
+                        "y": 175,
+                        "width": 755,
+                        "height": 1
+                      },
+                      {
+                        "type": "instance",
+                        "id": "17278:53157",
+                        "name": "Content_Item_Duo",
+                        "x": 24,
+                        "y": 192,
+                        "width": 755,
+                        "height": 59
+                      }
+                    ]
+                  },
+                  {
+                    "type": "frame",
+                    "id": "17278:53158",
+                    "name": "Frame 2609193",
+                    "x": 0,
+                    "y": 299,
+                    "width": 803,
+                    "height": 263,
+                    "children": [
+                      {
+                        "type": "frame",
+                        "id": "17278:53159",
+                        "name": "Frame 2608874",
+                        "x": 0,
+                        "y": 0,
+                        "width": 355,
+                        "height": 263,
+                        "children": [
+                          {
+                            "type": "frame",
+                            "id": "17278:53160",
+                            "name": "Frame 2609192",
+                            "x": 16,
+                            "y": 16,
+                            "width": 323,
+                            "height": 231,
+                            "children": [
+                              {
+                                "type": "instance",
+                                "id": "17278:53161",
+                                "name": "Content_Item_Duo",
+                                "x": 0,
+                                "y": 0,
+                                "width": 323,
+                                "height": 20
+                              },
+                              {
+                                "type": "instance",
+                                "id": "17278:53162",
+                                "name": "Divider",
+                                "x": 0,
+                                "y": 36,
+                                "width": 323,
+                                "height": 1
+                              },
+                              {
+                                "type": "instance",
+                                "id": "17278:53163",
+                                "name": "Content_Item_Duo",
+                                "x": 0,
+                                "y": 53,
+                                "width": 323,
+                                "height": 20
+                              },
+                              {
+                                "type": "instance",
+                                "id": "17278:53164",
+                                "name": "Divider",
+                                "x": 0,
+                                "y": 89,
+                                "width": 323,
+                                "height": 1
+                              },
+                              {
+                                "type": "instance",
+                                "id": "17278:53165",
+                                "name": "Content_Item_Duo",
+                                "x": 0,
+                                "y": 106,
+                                "width": 323,
+                                "height": 40
+                              },
+                              {
+                                "type": "instance",
+                                "id": "17278:53166",
+                                "name": "Divider",
+                                "x": 0,
+                                "y": 162,
+                                "width": 323,
+                                "height": 1
+                              },
+                              {
+                                "type": "instance",
+                                "id": "17278:53167",
+                                "name": "Content_Item_Duo",
+                                "x": 0,
+                                "y": 179,
+                                "width": 323,
+                                "height": 52
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "frame",
+                        "id": "17278:53168",
+                        "name": "Frame 2608875",
+                        "x": 448,
+                        "y": 0,
+                        "width": 355,
+                        "height": 263,
+                        "children": [
+                          {
+                            "type": "frame",
+                            "id": "17278:53169",
+                            "name": "Frame 2609192",
+                            "x": 16,
+                            "y": 16,
+                            "width": 323,
+                            "height": 231,
+                            "children": [
+                              {
+                                "type": "instance",
+                                "id": "17278:53170",
+                                "name": "Content_Item_Duo",
+                                "x": 0,
+                                "y": 0,
+                                "width": 323,
+                                "height": 20
+                              },
+                              {
+                                "type": "instance",
+                                "id": "17278:53171",
+                                "name": "Divider",
+                                "x": 0,
+                                "y": 36,
+                                "width": 323,
+                                "height": 1
+                              },
+                              {
+                                "type": "instance",
+                                "id": "17278:53172",
+                                "name": "Content_Item_Duo",
+                                "x": 0,
+                                "y": 53,
+                                "width": 323,
+                                "height": 20
+                              },
+                              {
+                                "type": "instance",
+                                "id": "17278:53173",
+                                "name": "Divider",
+                                "x": 0,
+                                "y": 89,
+                                "width": 323,
+                                "height": 1
+                              },
+                              {
+                                "type": "instance",
+                                "id": "17278:53174",
+                                "name": "Content_Item_Duo",
+                                "x": 0,
+                                "y": 106,
+                                "width": 323,
+                                "height": 40
+                              },
+                              {
+                                "type": "instance",
+                                "id": "17278:53175",
+                                "name": "Divider",
+                                "x": 0,
+                                "y": 162,
+                                "width": 323,
+                                "height": 1
+                              },
+                              {
+                                "type": "instance",
+                                "id": "17278:53176",
+                                "name": "Content_Item_Duo",
+                                "x": 0,
+                                "y": 179,
+                                "width": 323,
+                                "height": 52
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "frame",
+        "id": "17278:53177",
+        "name": "Template Content Item Duo Action",
+        "x": 3383,
+        "y": 3791,
+        "width": 1422,
+        "height": 1232,
+        "children": [
+          {
+            "type": "instance",
+            "id": "17278:55290",
+            "name": "Header Composants",
+            "x": 0,
+            "y": 0,
+            "width": 1422,
+            "height": 250
+          },
+          {
+            "type": "frame",
+            "id": "17278:53179",
+            "name": "Accordion",
+            "x": 0,
+            "y": 250,
+            "width": 1422,
+            "height": 982,
+            "children": [
+              {
+                "type": "frame",
+                "id": "17278:53180",
+                "name": "Frame 2609189",
+                "x": 309.5,
+                "y": 64,
+                "width": 803,
+                "height": 854,
+                "children": [
+                  {
+                    "type": "frame",
+                    "id": "17278:53181",
+                    "name": "Frame 2608872",
+                    "x": 0,
+                    "y": 0,
+                    "width": 803,
+                    "height": 258,
+                    "children": [
+                      {
+                        "type": "instance",
+                        "id": "17278:53182",
+                        "name": "Content_Item_Duo_Action",
+                        "x": 24,
+                        "y": 24,
+                        "width": 755,
+                        "height": 48
+                      },
+                      {
+                        "type": "instance",
+                        "id": "17278:53183",
+                        "name": "Divider",
+                        "x": 24,
+                        "y": 88,
+                        "width": 755,
+                        "height": 1
+                      },
+                      {
+                        "type": "instance",
+                        "id": "17278:53184",
+                        "name": "Content_Item_Duo_Action",
+                        "x": 24,
+                        "y": 105,
+                        "width": 755,
+                        "height": 48
+                      },
+                      {
+                        "type": "instance",
+                        "id": "17278:53185",
+                        "name": "Divider",
+                        "x": 24,
+                        "y": 169,
+                        "width": 755,
+                        "height": 1
+                      },
+                      {
+                        "type": "instance",
+                        "id": "17278:53186",
+                        "name": "Content_Item_Duo_Action",
+                        "x": 24,
+                        "y": 186,
+                        "width": 755,
+                        "height": 48
+                      }
+                    ]
+                  },
+                  {
+                    "type": "frame",
+                    "id": "17278:53187",
+                    "name": "Frame 2609196",
+                    "x": 0,
+                    "y": 282,
+                    "width": 803,
+                    "height": 290,
+                    "children": [
+                      {
+                        "type": "frame",
+                        "id": "17278:53188",
+                        "name": "Frame 2609194",
+                        "x": 0,
+                        "y": 33,
+                        "width": 389.5,
+                        "height": 224,
+                        "children": [
+                          {
+                            "type": "instance",
+                            "id": "17278:53189",
+                            "name": "Content_Item_Duo_Action",
+                            "x": 16,
+                            "y": 16,
+                            "width": 357.5,
+                            "height": 42
+                          },
+                          {
+                            "type": "instance",
+                            "id": "17278:53190",
+                            "name": "Divider",
+                            "x": 16,
+                            "y": 74,
+                            "width": 357.5,
+                            "height": 1
+                          },
+                          {
+                            "type": "instance",
+                            "id": "17278:53191",
+                            "name": "Content_Item_Duo_Action",
+                            "x": 16,
+                            "y": 91,
+                            "width": 357.5,
+                            "height": 42
+                          },
+                          {
+                            "type": "instance",
+                            "id": "17278:53192",
+                            "name": "Divider",
+                            "x": 16,
+                            "y": 149,
+                            "width": 357.5,
+                            "height": 1
+                          },
+                          {
+                            "type": "instance",
+                            "id": "17278:53193",
+                            "name": "Content_Item_Duo_Action",
+                            "x": 16,
+                            "y": 166,
+                            "width": 357.5,
+                            "height": 42
+                          }
+                        ]
+                      },
+                      {
+                        "type": "frame",
+                        "id": "17278:53194",
+                        "name": "Frame 2609195",
+                        "x": 413.5,
+                        "y": 0,
+                        "width": 389.5,
+                        "height": 290,
+                        "children": [
+                          {
+                            "type": "instance",
+                            "id": "17278:53195",
+                            "name": "Content_Item_Duo_Action",
+                            "x": 16,
+                            "y": 16,
+                            "width": 357.5,
+                            "height": 64
+                          },
+                          {
+                            "type": "instance",
+                            "id": "17278:53196",
+                            "name": "Divider",
+                            "x": 16,
+                            "y": 96,
+                            "width": 357.5,
+                            "height": 1
+                          },
+                          {
+                            "type": "instance",
+                            "id": "17278:53197",
+                            "name": "Content_Item_Duo_Action",
+                            "x": 16,
+                            "y": 113,
+                            "width": 357.5,
+                            "height": 64
+                          },
+                          {
+                            "type": "instance",
+                            "id": "17278:53198",
+                            "name": "Divider",
+                            "x": 16,
+                            "y": 193,
+                            "width": 357.5,
+                            "height": 1
+                          },
+                          {
+                            "type": "instance",
+                            "id": "17278:53199",
+                            "name": "Content_Item_Duo_Action",
+                            "x": 16,
+                            "y": 210,
+                            "width": 357.5,
+                            "height": 64
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "frame",
+                    "id": "17278:53200",
+                    "name": "Frame 2609197",
+                    "x": 0,
+                    "y": 596,
+                    "width": 803,
+                    "height": 258,
+                    "children": [
+                      {
+                        "type": "instance",
+                        "id": "17278:53201",
+                        "name": "Content_Item_Duo_Action",
+                        "x": 24,
+                        "y": 24,
+                        "width": 755,
+                        "height": 48
+                      },
+                      {
+                        "type": "instance",
+                        "id": "17278:53202",
+                        "name": "Divider",
+                        "x": 24,
+                        "y": 88,
+                        "width": 755,
+                        "height": 1
+                      },
+                      {
+                        "type": "instance",
+                        "id": "17278:53203",
+                        "name": "Content_Item_Duo_Action",
+                        "x": 24,
+                        "y": 105,
+                        "width": 755,
+                        "height": 48
+                      },
+                      {
+                        "type": "instance",
+                        "id": "17278:53204",
+                        "name": "Divider",
+                        "x": 24,
+                        "y": 169,
+                        "width": 755,
+                        "height": 1
+                      },
+                      {
+                        "type": "instance",
+                        "id": "17278:53205",
+                        "name": "Content_Item_Duo_Action",
+                        "x": 24,
+                        "y": 186,
+                        "width": 755,
+                        "height": 48
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "frame",
+        "id": "19421:10008",
+        "name": "Template Data Agent",
+        "x": 4885,
+        "y": 4627,
+        "width": 1422,
+        "height": 877,
+        "children": [
+          {
+            "type": "instance",
+            "id": "19421:10009",
+            "name": "Header Composants",
+            "x": 0,
+            "y": 0,
+            "width": 1422,
+            "height": 250
+          },
+          {
+            "type": "frame",
+            "id": "19421:10010",
+            "name": "Accordion",
+            "x": 0,
+            "y": 250,
+            "width": 1422,
+            "height": 627,
+            "children": [
+              {
+                "type": "instance",
+                "id": "19421:7428",
+                "name": "Data_Agent",
+                "x": 216,
+                "y": 64,
+                "width": 282,
+                "height": 499
+              },
+              {
+                "type": "instance",
+                "id": "19421:9847",
+                "name": "Data_Agent",
+                "x": 570,
+                "y": 64,
+                "width": 282,
+                "height": 470
+              },
+              {
+                "type": "instance",
+                "id": "19421:9916",
+                "name": "Data_Agent",
+                "x": 924,
+                "y": 64,
+                "width": 282,
+                "height": 396
+              },
+              {
+                "type": "text",
+                "id": "19421:10231",
+                "name": "Component name",
+                "x": 216,
+                "y": 23,
+                "width": 232,
+                "height": 25
+              },
+              {
+                "type": "text",
+                "id": "19421:10233",
+                "name": "Component name",
+                "x": 570,
+                "y": 23,
+                "width": 232,
+                "height": 25
+              },
+              {
+                "type": "text",
+                "id": "19421:10234",
+                "name": "Component name",
+                "x": 924,
+                "y": 23,
+                "width": 232,
+                "height": 25
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "frame",
+        "id": "17278:54170",
+        "name": "Data Agent",
+        "x": 4855,
+        "y": 2375,
+        "width": 1475,
+        "height": 2191,
+        "children": [
+          {
+            "type": "instance",
+            "id": "28060:24507",
+            "name": "Header Composants",
+            "x": 32,
+            "y": 32,
+            "width": 1411,
+            "height": 300
+          },
+          {
+            "type": "instance",
+            "id": "28060:24508",
+            "name": "Message",
+            "x": 32,
+            "y": 364,
+            "width": 1411,
+            "height": 56
+          },
+          {
+            "type": "frame",
+            "id": "140:12230",
+            "name": "Data_Agent",
+            "x": 158.5,
+            "y": 452,
+            "width": 1158,
+            "height": 1707,
+            "children": [
+              {
+                "type": "symbol",
+                "id": "140:12231",
+                "name": "Thème=Client, Device=--desk",
+                "x": 674.5,
+                "y": 110.5,
+                "width": 282,
+                "height": 560
+              },
+              {
+                "type": "symbol",
+                "id": "13494:7575",
+                "name": "Thème=Client, Device=--mob",
+                "x": 674.5,
+                "y": 947.5,
+                "width": 282,
+                "height": 519
+              },
+              {
+                "type": "symbol",
+                "id": "140:12250",
+                "name": "Thème=Client, Device=--mob compact",
+                "x": 641,
+                "y": 1540,
+                "width": 385,
+                "height": 80
+              },
+              {
+                "type": "symbol",
+                "id": "149:14130",
+                "name": "Thème=Prospect, Device=--mob compact",
+                "x": 148,
+                "y": 1543,
+                "width": 385,
+                "height": 80
+              },
+              {
+                "type": "symbol",
+                "id": "31665:2954",
+                "name": "Thème=Client, Device=--desk compact",
+                "x": 674.5,
+                "y": 711,
+                "width": 385,
+                "height": 80
+              },
+              {
+                "type": "symbol",
+                "id": "31665:2956",
+                "name": "Thème=Prospect, Device=--desk compact",
+                "x": 148.5,
+                "y": 711,
+                "width": 385,
+                "height": 80
+              },
+              {
+                "type": "symbol",
+                "id": "196:8713",
+                "name": "Thème=Prospect, Device=--desk",
+                "x": 148,
+                "y": 110,
+                "width": 282,
+                "height": 560
+              },
+              {
+                "type": "symbol",
+                "id": "13494:7603",
+                "name": "Thème=Prospect, Device=--mob",
+                "x": 158,
+                "y": 947,
+                "width": 282,
+                "height": 519
+              }
+            ]
+          },
+          {
+            "type": "instance",
+            "id": "17278:54171",
+            "name": "UI DS",
+            "x": 259,
+            "y": 481,
+            "width": 445,
+            "height": 52
+          },
+          {
+            "type": "instance",
+            "id": "17278:54172",
+            "name": "UI DS",
+            "x": 200,
+            "y": 563,
+            "width": 74,
+            "height": 714
+          },
+          {
+            "type": "instance",
+            "id": "17278:54173",
+            "name": "UI DS",
+            "x": 206,
+            "y": 1376,
+            "width": 74,
+            "height": 720
+          },
+          {
+            "type": "instance",
+            "id": "17278:54175",
+            "name": "UI DS",
+            "x": 743,
+            "y": 481,
+            "width": 445,
+            "height": 52
+          }
+        ]
+      },
+      {
+        "type": "frame",
+        "id": "18733:51839",
+        "name": "Message Bar",
+        "x": 6410,
+        "y": 2375,
+        "width": 3070,
+        "height": 1756,
+        "children": [
+          {
+            "type": "instance",
+            "id": "28060:24574",
+            "name": "Header Composants",
+            "x": 32,
+            "y": 32,
+            "width": 3006,
+            "height": 300
+          },
+          {
+            "type": "instance",
+            "id": "28060:24575",
+            "name": "Message",
+            "x": 32,
+            "y": 364,
+            "width": 3006,
+            "height": 56
+          },
+          {
+            "type": "frame",
+            "id": "18733:51840",
+            "name": "Message_Bar",
+            "x": 32,
+            "y": 452,
+            "width": 3006,
+            "height": 1272,
+            "children": [
+              {
+                "type": "symbol",
+                "id": "18733:51841",
+                "name": "Theme=Prospect, Device=--desk, Style=--info, Action=--without_accordion",
+                "x": 151,
+                "y": 181,
+                "width": 1280,
+                "height": 150
+              },
+              {
+                "type": "symbol",
+                "id": "18733:51848",
+                "name": "Theme=Prospect, Device=--desk, Style=--warning, Action=--without_accordion",
+                "x": 151,
+                "y": 760,
+                "width": 1280,
+                "height": 150
+              },
+              {
+                "type": "symbol",
+                "id": "18733:51855",
+                "name": "Theme=Prospect, Device=--mob, Style=--info, Action=--open",
+                "x": 151,
+                "y": 352,
+                "width": 375,
+                "height": 268
+              },
+              {
+                "type": "symbol",
+                "id": "18733:51860",
+                "name": "Theme=Prospect, Device=--mob, Style=--warning, Action=--open",
+                "x": 151,
+                "y": 943,
+                "width": 375,
+                "height": 268
+              },
+              {
+                "type": "symbol",
+                "id": "18733:51865",
+                "name": "Theme=Prospect, Device=--mob, Style=--info, Action=--closed",
+                "x": 550,
+                "y": 352,
+                "width": 375,
+                "height": 72
+              },
+              {
+                "type": "symbol",
+                "id": "18733:51867",
+                "name": "Theme=Prospect, Device=--mob, Style=--warning, Action=--closed",
+                "x": 550,
+                "y": 943,
+                "width": 375,
+                "height": 72
+              },
+              {
+                "type": "symbol",
+                "id": "18733:51869",
+                "name": "Theme=Client, Device=--desk, Style=--info, Action=--without_accordion",
+                "x": 1527,
+                "y": 181,
+                "width": 1280,
+                "height": 150
+              },
+              {
+                "type": "symbol",
+                "id": "18733:51876",
+                "name": "Theme=Client, Device=--mob, Style=--info, Action=--closed",
+                "x": 1926,
+                "y": 378,
+                "width": 375,
+                "height": 72
+              },
+              {
+                "type": "symbol",
+                "id": "18733:51878",
+                "name": "Theme=Client, Device=--mob, Style=--info, Action=--open",
+                "x": 1527,
+                "y": 378,
+                "width": 375,
+                "height": 268
+              },
+              {
+                "type": "symbol",
+                "id": "18733:51883",
+                "name": "Theme=Client, Device=--desk, Style=--warning, Action=--without_accordion",
+                "x": 1527,
+                "y": 760,
+                "width": 1280,
+                "height": 150
+              },
+              {
+                "type": "symbol",
+                "id": "18733:51890",
+                "name": "Theme=Client, Device=--mob, Style=--warning, Action=--closed",
+                "x": 1925,
+                "y": 957,
+                "width": 375,
+                "height": 72
+              },
+              {
+                "type": "symbol",
+                "id": "18733:51892",
+                "name": "Theme=Client, Device=--mob, Style=--warning, Action=--open",
+                "x": 1527,
+                "y": 957,
+                "width": 375,
+                "height": 268
+              }
+            ]
+          },
+          {
+            "type": "instance",
+            "id": "18733:51897",
+            "name": "UI DS",
+            "x": 138,
+            "y": 532,
+            "width": 1340,
+            "height": 52
+          },
+          {
+            "type": "instance",
+            "id": "18733:51898",
+            "name": "UI DS",
+            "x": 1560.9990234375,
+            "y": 532,
+            "width": 1340,
+            "height": 52
+          }
+        ]
+      },
+      {
+        "type": "frame",
+        "id": "17278:54341",
+        "name": "Message",
+        "x": 9560,
+        "y": 2375,
+        "width": 1655,
+        "height": 2374,
+        "children": [
+          {
+            "type": "instance",
+            "id": "28060:24607",
+            "name": "Header Composants",
+            "x": 32,
+            "y": 32,
+            "width": 1591,
+            "height": 300
+          },
+          {
+            "type": "instance",
+            "id": "28060:24608",
+            "name": "Message",
+            "x": 32,
+            "y": 364,
+            "width": 1591,
+            "height": 56
+          },
+          {
+            "type": "frame",
+            "id": "6961:502",
+            "name": "Message",
+            "x": 236.5,
+            "y": 452,
+            "width": 1182,
+            "height": 1890,
+            "children": [
+              {
+                "type": "symbol",
+                "id": "6961:503",
+                "name": "Theme=Prospect, Device=--desk, Style=--information",
+                "x": 83.5,
+                "y": 188,
+                "width": 479,
+                "height": 131
+              },
+              {
+                "type": "symbol",
+                "id": "28824:36297",
+                "name": "Theme=Prospect, Device=--desk, Style=--validation",
+                "x": 83.5,
+                "y": 356,
+                "width": 479,
+                "height": 131
+              },
+              {
+                "type": "symbol",
+                "id": "6961:543",
+                "name": "Theme=Prospect, Device=--desk, Style=--warning",
+                "x": 83.5,
+                "y": 524,
+                "width": 479,
+                "height": 131
+              },
+              {
+                "type": "symbol",
+                "id": "6961:563",
+                "name": "Theme=Prospect, Device=--desk, Style=--error",
+                "x": 83.5,
+                "y": 692,
+                "width": 479,
+                "height": 131
+              },
+              {
+                "type": "symbol",
+                "id": "6961:583",
+                "name": "Theme=Prospect, Device=--desk, Style=--neutral",
+                "x": 83.5,
+                "y": 860,
+                "width": 479,
+                "height": 131
+              },
+              {
+                "type": "symbol",
+                "id": "6961:603",
+                "name": "Theme=Prospect, Device=--mob, Style=--information",
+                "x": 83.5,
+                "y": 1068,
+                "width": 479,
+                "height": 128
+              },
+              {
+                "type": "symbol",
+                "id": "6961:623",
+                "name": "Theme=Prospect, Device=--mob, Style=--validation",
+                "x": 83.5,
+                "y": 1224,
+                "width": 479,
+                "height": 128
+              },
+              {
+                "type": "symbol",
+                "id": "6961:643",
+                "name": "Theme=Prospect, Device=--mob, Style=--warning",
+                "x": 83.5,
+                "y": 1380,
+                "width": 479,
+                "height": 128
+              },
+              {
+                "type": "symbol",
+                "id": "6961:663",
+                "name": "Theme=Prospect, Device=--mob, Style=--error",
+                "x": 77.5,
+                "y": 1536,
+                "width": 479,
+                "height": 128
+              },
+              {
+                "type": "symbol",
+                "id": "6961:683",
+                "name": "Theme=Prospect, Device=--mob, Style=--neutral",
+                "x": 83.5,
+                "y": 1692,
+                "width": 479,
+                "height": 128
+              },
+              {
+                "type": "symbol",
+                "id": "6961:703",
+                "name": "Theme=Client, Device=--desk, Style=--validation",
+                "x": 626.5,
+                "y": 356,
+                "width": 479,
+                "height": 131
+              },
+              {
+                "type": "symbol",
+                "id": "6961:723",
+                "name": "Theme=Client, Device=--desk, Style=--error",
+                "x": 626.5,
+                "y": 692,
+                "width": 479,
+                "height": 131
+              },
+              {
+                "type": "symbol",
+                "id": "6961:743",
+                "name": "Theme=Client, Device=--desk, Style=--warning",
+                "x": 626.5,
+                "y": 524,
+                "width": 479,
+                "height": 131
+              },
+              {
+                "type": "symbol",
+                "id": "6961:763",
+                "name": "Theme=Client, Device=--desk, Style=--information",
+                "x": 626.5,
+                "y": 188,
+                "width": 479,
+                "height": 131
+              },
+              {
+                "type": "symbol",
+                "id": "6961:783",
+                "name": "Theme=Client, Device=--desk, Style=--neutral",
+                "x": 626.5,
+                "y": 860,
+                "width": 479,
+                "height": 131
+              },
+              {
+                "type": "symbol",
+                "id": "6961:803",
+                "name": "Theme=Client, Device=--mob, Style=--validation",
+                "x": 626.5,
+                "y": 1224,
+                "width": 479,
+                "height": 128
+              },
+              {
+                "type": "symbol",
+                "id": "6961:823",
+                "name": "Theme=Client, Device=--mob, Style=--error",
+                "x": 626.5,
+                "y": 1536,
+                "width": 479,
+                "height": 128
+              },
+              {
+                "type": "symbol",
+                "id": "6961:843",
+                "name": "Theme=Client, Device=--mob, Style=--warning",
+                "x": 626.5,
+                "y": 1380,
+                "width": 479,
+                "height": 128
+              },
+              {
+                "type": "symbol",
+                "id": "6961:863",
+                "name": "Theme=Client, Device=--mob, Style=--information",
+                "x": 626.5,
+                "y": 1068,
+                "width": 479,
+                "height": 128
+              },
+              {
+                "type": "symbol",
+                "id": "6961:883",
+                "name": "Theme=Client, Device=--mob, Style=--neutral",
+                "x": 626.5,
+                "y": 1692,
+                "width": 479,
+                "height": 128
+              }
+            ]
+          },
+          {
+            "type": "instance",
+            "id": "17278:54342",
+            "name": "UI DS",
+            "x": 821,
+            "y": 533,
+            "width": 532,
+            "height": 52
+          },
+          {
+            "type": "instance",
+            "id": "17278:54343",
+            "name": "UI DS",
+            "x": 278,
+            "y": 533,
+            "width": 532,
+            "height": 52
+          }
+        ]
+      },
+      {
+        "type": "frame",
+        "id": "33668:11110",
+        "name": "Multi_Message",
+        "x": 11295,
+        "y": 2375,
+        "width": 1655,
+        "height": 2852,
+        "children": [
+          {
+            "type": "instance",
+            "id": "33668:11111",
+            "name": "Header Composants",
+            "x": 32,
+            "y": 32,
+            "width": 1591,
+            "height": 280
+          },
+          {
+            "type": "instance",
+            "id": "33668:11112",
+            "name": "Message",
+            "x": 32,
+            "y": 344,
+            "width": 1591,
+            "height": 56
+          },
+          {
+            "type": "frame",
+            "id": "33668:12099",
+            "name": "Multi_Message",
+            "x": 236.5,
+            "y": 432,
+            "width": 1182,
+            "height": 2388,
+            "children": [
+              {
+                "type": "symbol",
+                "id": "33668:12100",
+                "name": "Theme=Prospect, Device=--desk, Style=--information",
+                "x": 83.5,
+                "y": 113,
+                "width": 479,
+                "height": 179
+              },
+              {
+                "type": "symbol",
+                "id": "33668:12111",
+                "name": "Theme=Prospect, Device=--desk, Style=--validation",
+                "x": 83.5,
+                "y": 310,
+                "width": 479,
+                "height": 179
+              },
+              {
+                "type": "symbol",
+                "id": "33668:12122",
+                "name": "Theme=Prospect, Device=--desk, Style=--warning",
+                "x": 83.5,
+                "y": 507,
+                "width": 479,
+                "height": 179
+              },
+              {
+                "type": "symbol",
+                "id": "33668:12133",
+                "name": "Theme=Prospect, Device=--desk, Style=--error",
+                "x": 83.5,
+                "y": 704,
+                "width": 479,
+                "height": 179
+              },
+              {
+                "type": "symbol",
+                "id": "33668:12144",
+                "name": "Theme=Prospect, Device=--desk, Style=--neutral",
+                "x": 83.5,
+                "y": 917,
+                "width": 479,
+                "height": 179
+              },
+              {
+                "type": "symbol",
+                "id": "33668:12155",
+                "name": "Theme=Prospect, Device=--mob, Style=--information",
+                "x": 83.5,
+                "y": 1153,
+                "width": 479,
+                "height": 216
+              },
+              {
+                "type": "symbol",
+                "id": "33668:12166",
+                "name": "Theme=Prospect, Device=--mob, Style=--validation",
+                "x": 83.5,
+                "y": 1426,
+                "width": 479,
+                "height": 216
+              },
+              {
+                "type": "symbol",
+                "id": "33668:12179",
+                "name": "Theme=Prospect, Device=--mob, Style=--warning",
+                "x": 83.5,
+                "y": 1654,
+                "width": 479,
+                "height": 216
+              },
+              {
+                "type": "symbol",
+                "id": "33668:12192",
+                "name": "Theme=Prospect, Device=--mob, Style=--error",
+                "x": 83.5,
+                "y": 1882,
+                "width": 479,
+                "height": 216
+              },
+              {
+                "type": "symbol",
+                "id": "33668:12205",
+                "name": "Theme=Prospect, Device=--mob, Style=--neutral",
+                "x": 83.5,
+                "y": 2110,
+                "width": 479,
+                "height": 216
+              },
+              {
+                "type": "symbol",
+                "id": "33668:12218",
+                "name": "Theme=Client, Device=--desk, Style=--validation",
+                "x": 626.5,
+                "y": 310,
+                "width": 479,
+                "height": 179
+              },
+              {
+                "type": "symbol",
+                "id": "33668:12229",
+                "name": "Theme=Client, Device=--desk, Style=--error",
+                "x": 626.5,
+                "y": 704,
+                "width": 479,
+                "height": 179
+              },
+              {
+                "type": "symbol",
+                "id": "33668:12240",
+                "name": "Theme=Client, Device=--desk, Style=--warning",
+                "x": 626.5,
+                "y": 507,
+                "width": 479,
+                "height": 179
+              },
+              {
+                "type": "symbol",
+                "id": "33668:12251",
+                "name": "Theme=Client, Device=--desk, Style=--information",
+                "x": 626.5,
+                "y": 113,
+                "width": 479,
+                "height": 179
+              },
+              {
+                "type": "symbol",
+                "id": "33668:12262",
+                "name": "Theme=Client, Device=--desk, Style=--neutral",
+                "x": 626.5,
+                "y": 917,
+                "width": 479,
+                "height": 179
+              },
+              {
+                "type": "symbol",
+                "id": "33668:12273",
+                "name": "Theme=Client, Device=--mob, Style=--validation",
+                "x": 626.5,
+                "y": 1426,
+                "width": 479,
+                "height": 216
+              },
+              {
+                "type": "symbol",
+                "id": "33668:12286",
+                "name": "Theme=Client, Device=--mob, Style=--error",
+                "x": 626.5,
+                "y": 1882,
+                "width": 479,
+                "height": 216
+              },
+              {
+                "type": "symbol",
+                "id": "33668:12299",
+                "name": "Theme=Client, Device=--mob, Style=--warning",
+                "x": 626.5,
+                "y": 1654,
+                "width": 479,
+                "height": 216
+              },
+              {
+                "type": "symbol",
+                "id": "33668:12312",
+                "name": "Theme=Client, Device=--mob, Style=--information",
+                "x": 626.5,
+                "y": 1153,
+                "width": 479,
+                "height": 216
+              },
+              {
+                "type": "symbol",
+                "id": "33668:12325",
+                "name": "Theme=Client, Device=--mob, Style=--neutral",
+                "x": 626.5,
+                "y": 2110,
+                "width": 479,
+                "height": 216
+              }
+            ]
+          },
+          {
+            "type": "instance",
+            "id": "33668:11294",
+            "name": "UI DS",
+            "x": 853,
+            "y": 469,
+            "width": 500,
+            "height": 52
+          },
+          {
+            "type": "instance",
+            "id": "33668:11295",
+            "name": "UI DS",
+            "x": 310,
+            "y": 469,
+            "width": 500,
+            "height": 52
+          }
+        ]
+      }
+    ]
+  }
+}
