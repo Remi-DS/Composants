@@ -20,7 +20,8 @@ En cas d'information absente, contradictoire ou non confirmée, elle doit le sig
 ## Structure
 
 - `ai/component-registry.json` — registre machine-readable des composants.
-- `ai/prototype-brief.md` — brief type pour générer un prototype.
+- `ai/prototype-brief.md` — brief type pour reproduire une maquette en prototype.
+- `ai/mockup-to-prototype-workflow.md` — workflow détaillé de la référence à la livraison.
 - `ai/validation-checklist.md` — checklist de fidélité visuelle et fonctionnelle du prototype.
 - `ai/composition-rules.md` — règles de reproduction d'une maquette sans inventer sa structure.
 - `ai/component-relations.json` — relations de composants sourcées.
