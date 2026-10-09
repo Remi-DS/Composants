@@ -1,59 +1,60 @@
-# Instructions pour les agents IA — Canopée
+# Instructions pour les agents IA — prototypes Canopée
 
-## Règle absolue
+## Mission
 
-Ne jamais inventer une règle, un composant, une variante, un token, un comportement ou une valeur du Design System.
+À partir d'une ou plusieurs maquettes existantes (Figma, capture ou export), produire un prototype interactif aussi fidèle que possible pour une revue ou un test utilisateur.
 
-## Avant toute conception
+**Le prototype reproduit la maquette ; il ne redessine pas le produit.** Ne pas inventer une architecture de page, un parcours, du contenu métier, des règles de validation ou des interactions absentes du brief ou des sources. Si une information manque et empêche d'avancer fidèlement, poser une question ciblée ou signaler le point comme non confirmé.
 
-1. Identifier les composants nécessaires.
-2. Consulter `ai/component-registry.json`.
-3. Lire la documentation du composant avant de l'utiliser.
-4. Respecter la hiérarchie des sources.
-5. Signaler les contradictions et informations non confirmées.
+## Ordre de priorité
 
-## Réutilisation
+1. Maquette de référence : structure, hiérarchie, contenu visible, composition et dimensions observables.
+2. Brief utilisateur : écrans à couvrir et interactions explicitement attendues.
+3. Documentation Zeroheight : règles d'usage et intentions documentées.
+4. Fiches de synthèse et sources Storybook/code : API, rendu et comportements implémentés.
+5. Registres IA : index, relations et recommandations, sans leur donner plus d'autorité que les sources.
+6. Toute proposition non confirmée : la signaler, ne pas la présenter comme une règle Canopée.
 
-- Vérifier la disponibilité et l'API des composants dans le dépôt open source [AxaFrance/design-system](https://github.com/AxaFrance/design-system), puis réutiliser les composants Canopée existants.
-- Utiliser systématiquement le composant React Canopée disponible et adapté au besoin. Ne pas recréer en HTML/CSS un composant déjà disponible en React. Une implémentation spécifique n'est permise que si aucun composant React adapté n'existe ou si celui-ci n'est pas disponible dans le contexte du projet ; signaler alors explicitement le motif et les éléments concernés.
-- Ne pas créer une variante simplement parce que l'implémentation technique le permet.
-- Une propriété d'API n'est pas une autorisation de design.
+Si la maquette contredit une règle ou une implémentation Canopée, ne pas la corriger silencieusement. Reproduire ce qui est demandé si c'est possible, et signaler explicitement l'écart.
+
+## Workflow obligatoire
+
+1. **Lire la référence** : identifier les écrans/états fournis, l'univers Prospect ou Client si connu, les formats Desktop/Mobile et les textes visibles. Ne pas prétendre avoir inspecté un fichier Figma inaccessible.
+2. **Cartographier la maquette** : relever les zones, composants apparents, variantes potentiellement correspondantes, dimensions et liens entre écrans.
+3. **Consulter les sources** : rechercher chaque composant candidat dans ai/component-registry.json, puis lire sa synthèse avant utilisation. Vérifier l'univers et le contexte technique réels du projet.
+4. **Construire au plus près** : réutiliser les composants Canopée disponibles et adaptés. N'utiliser du HTML/CSS spécifique que si aucun composant adapté n'est disponible dans le contexte ; expliquer ce choix.
+5. **Ajouter les interactions demandées** : clics, saisies, sélections, navigation entre écrans et états seulement selon la maquette ou le brief. Ne pas inventer de logique métier.
+6. **Comparer et restituer** : vérifier visuellement chaque écran et tester chaque interaction demandée ; lister les écarts, hypothèses et questions restantes.
+
+## Règles de fidélité
+
+- Ne pas créer de nouvelle page ou d'étape de parcours simplement parce qu'un template existe.
+- Ne pas changer les textes, la hiérarchie, les espacements, les couleurs ou la composition pour « améliorer » la maquette.
+- Ne pas inventer de composants, variantes, tokens, breakpoints ou comportements.
+- Une propriété d'API n'est pas une permission de design.
 - Ne pas extrapoler une règle Prospect vers Client, ou Desktop vers Mobile, sans preuve.
-- Ne pas inventer couleurs, typographies, espacements, rayons, dimensions ou breakpoints.
+- Si une image, une police, un token ou un composant n'est pas accessible, utiliser uniquement un remplacement explicitement identifié comme provisoire et documenter l'écart.
+- Distinguer règle documentée, implémentation constatée, observation, recommandation et information non confirmée.
 
-## Provenance
+## Interactivité et ambiguïtés
 
-Toujours distinguer :
-- règle de design documentée ;
-- comportement d'implémentation ;
-- observation ;
-- recommandation ;
-- information non confirmée.
+- Implémenter les interactions explicitement demandées et celles dont le comportement est clairement visible dans la référence.
+- Une maquette statique ne définit pas nécessairement le comportement d'erreur, la validation métier, le retour arrière ou la destination d'un lien.
+- En cas d'ambiguïté, ne pas inventer de règle métier. Poser une question si la réponse change le prototype ; sinon utiliser un comportement provisoire minimal et le déclarer.
+- Ne pas connecter de service réel ni envoyer de données utilisateur, sauf demande explicite et contexte technique prévu.
 
-En cas de contradiction, conserver la contradiction et demander une clarification plutôt que la résoudre arbitrairement.
+## Accessibilité et responsive
 
-## Prototypes
+Préserver la référence tout en vérifiant les fondamentaux applicables au prototype : sémantique, navigation clavier, focus visible, nom accessible et utilisabilité. Contrôler les formats demandés. Ne pas prétendre certifier WCAG/RGAA.
 
-Pour un prototype utilisateur :
-- privilégier la fidélité au Design System ;
-- conserver les interactions nécessaires au test ;
-- rendre les hypothèses explicites ;
-- ne jamais présenter un comportement technique non vérifié comme une règle validée.
+## Compte rendu de livraison
 
-## Accessibilité
+Indiquer :
+- les écrans et états reproduits ;
+- les composants Canopée utilisés et les sources effectivement consultées ;
+- les interactions implémentées et testées ;
+- les écarts visuels connus ;
+- les hypothèses provisoires et points non confirmés ;
+- les questions bloquantes ou décisions attendues.
 
-Vérifier notamment :
-- structure sémantique ;
-- navigation clavier ;
-- ordre de tabulation ;
-- états focus ;
-- nom accessible ;
-- contraste ;
-- responsive ;
-- lisibilité et tailles de cibles.
-
-## Contrôle avant livraison
-
-Vérifier composants, variantes, états, hiérarchie, contenu, dimensions, responsive, accessibilité, tokens et provenance.
-
-Si un point n'est pas vérifiable, le dire explicitement.
+Ne pas déclarer une conformité globale au Design System. L'objectif est la fidélité du prototype à la maquette et la transparence sur les écarts.
