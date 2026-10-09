@@ -1,0 +1,808 @@
+{
+  "formatVersion": "1.0.0",
+  "designSystem": "Canopée",
+  "source": {
+    "product": "Figma",
+    "method": "Figma MCP get_metadata",
+    "fileKey": "vwprvN2ELfI50pjU6MK1Ea",
+    "pageId": "17280:57523",
+    "pageName": "-> Navigation",
+    "url": "https://www.figma.com/design/vwprvN2ELfI50pjU6MK1Ea/%E2%9C%A8-B2C-%E2%80%A2-Design-System-Canop%C3%A9e?m=dev&node-id=17280-57523",
+    "exportedAt": "2026-10-09T09:26:44+02:00"
+  },
+  "scope": {
+    "description": "Structure exposée par le MCP pour la page « -> Navigation » et correspondances vers ai/component-registry.json.",
+    "limitations": [
+      "Le MCP get_metadata fournit types de nœud, identifiants, noms, coordonnées et dimensions ; les styles détaillés, variables, interactions et vecteurs ne sont pas inclus dans cette réponse.",
+      "Les entrées RECOMMANDATION et NON_CONFIRMÉ ne sont pas des équivalences certifiées.",
+      "Seules les pages Figma dont le nom commence par « -> » sont exportées."
+    ]
+  },
+  "statistics": {
+    "nodeCount": 71,
+    "nodeTypes": {
+      "canvas": 1,
+      "frame": 9,
+      "instance": 20,
+      "symbol": 40,
+      "text": 1
+    },
+    "topLevelSections": 9,
+    "mappings": 9,
+    "mappedToRepository": 8,
+    "unresolved": 1
+  },
+  "repositoryMappings": [
+    {
+      "figmaNodeId": "17280:57526",
+      "figmaName": "Header",
+      "status": "OBSERVÉ",
+      "relationship": "same-component",
+      "confidence": 0.99,
+      "evidence": "Header section and nested component match the repository Header entry.",
+      "repositoryComponent": {
+        "id": "header",
+        "name": "Header",
+        "documentation": "header-synthese.md"
+      }
+    },
+    {
+      "figmaNodeId": "36494:17476",
+      "figmaName": "Header",
+      "status": "OBSERVÉ",
+      "relationship": "same-component",
+      "confidence": 0.6,
+      "evidence": "The section is named Header but the MCP exposes no children or component detail for this node.",
+      "repositoryComponent": {
+        "id": "header",
+        "name": "Header",
+        "documentation": "header-synthese.md"
+      }
+    },
+    {
+      "figmaNodeId": "36494:17506",
+      "figmaName": "Header",
+      "status": "OBSERVÉ",
+      "relationship": "same-component",
+      "confidence": 0.6,
+      "evidence": "The section is named Header but the MCP exposes no children or component detail for this node.",
+      "repositoryComponent": {
+        "id": "header",
+        "name": "Header",
+        "documentation": "header-synthese.md"
+      }
+    },
+    {
+      "figmaNodeId": "36494:17410",
+      "figmaName": "Header",
+      "status": "OBSERVÉ",
+      "relationship": "same-component",
+      "confidence": 0.6,
+      "evidence": "The section is named Header but the MCP exposes no children or component detail for this node.",
+      "repositoryComponent": {
+        "id": "header",
+        "name": "Header",
+        "documentation": "header-synthese.md"
+      }
+    },
+    {
+      "figmaNodeId": "36494:17555",
+      "figmaName": "Button Secondary",
+      "status": "OBSERVÉ",
+      "relationship": "same-component",
+      "confidence": 0.6,
+      "evidence": "The section is named Button Secondary but the MCP exposes no children or component detail for this node.",
+      "repositoryComponent": {
+        "id": "button-secondary",
+        "name": "Button Secondary",
+        "documentation": "descriptions-zeroheight.md"
+      }
+    },
+    {
+      "figmaNodeId": "17280:57595",
+      "figmaName": "Footer",
+      "status": "OBSERVÉ",
+      "relationship": "same-component",
+      "confidence": 0.99,
+      "evidence": "Footer section matches the repository entry.",
+      "repositoryComponent": {
+        "id": "footer",
+        "name": "Footer",
+        "documentation": "footer-synthese.md"
+      }
+    },
+    {
+      "figmaNodeId": "25598:1974",
+      "figmaName": "Pagination",
+      "status": "OBSERVÉ",
+      "relationship": "same-component",
+      "confidence": 0.99,
+      "evidence": "Pagination section matches the repository entry.",
+      "repositoryComponent": {
+        "id": "pagination",
+        "name": "Pagination",
+        "documentation": "pagination-synthese.md"
+      }
+    },
+    {
+      "figmaNodeId": "17280:57733",
+      "figmaName": "Menu Burger",
+      "status": "OBSERVÉ",
+      "relationship": "name-alias",
+      "confidence": 0.98,
+      "evidence": "Menu Burger and nested Menu_Burger map to repository MenuBurger.",
+      "repositoryComponent": {
+        "id": "menu-burger",
+        "name": "MenuBurger",
+        "documentation": "menu-burger-synthese.md"
+      }
+    },
+    {
+      "figmaNodeId": "33889:57937",
+      "figmaName": "i",
+      "status": "NON_CONFIRMÉ",
+      "relationship": "unresolved",
+      "confidence": 0.0,
+      "evidence": "The Figma node is named only “i” and contains no details, so no repository component is inferred."
+    }
+  ],
+  "figmaPageTree": {
+    "type": "canvas",
+    "id": "17280:57523",
+    "name": "-> Navigation",
+    "x": 0,
+    "y": 0,
+    "width": 0,
+    "height": 0,
+    "children": [
+      {
+        "type": "frame",
+        "id": "17280:57526",
+        "name": "Header",
+        "x": -313,
+        "y": -51,
+        "width": 2828,
+        "height": 1369,
+        "children": [
+          {
+            "type": "instance",
+            "id": "28062:55614",
+            "name": "Header Composants",
+            "x": 32,
+            "y": 32,
+            "width": 2764,
+            "height": 280
+          },
+          {
+            "type": "instance",
+            "id": "28062:55615",
+            "name": "Message",
+            "x": 32,
+            "y": 344,
+            "width": 2764,
+            "height": 56
+          },
+          {
+            "type": "frame",
+            "id": "57:35127",
+            "name": "Header",
+            "x": 32,
+            "y": 432,
+            "width": 2764,
+            "height": 761,
+            "children": [
+              {
+                "type": "symbol",
+                "id": "57:35045",
+                "name": "Theme=Prospect, Device=--desk, Style=Parcours",
+                "x": 43,
+                "y": 200,
+                "width": 1279,
+                "height": 81
+              },
+              {
+                "type": "symbol",
+                "id": "57:35046",
+                "name": "Theme=Prospect, Device=--mob, Style=Parcours",
+                "x": 43,
+                "y": 338,
+                "width": 375,
+                "height": 57
+              },
+              {
+                "type": "symbol",
+                "id": "294:14414",
+                "name": "Theme=Client, Device=--desk, Style=Parcours",
+                "x": 1356,
+                "y": 200,
+                "width": 1280,
+                "height": 90
+              },
+              {
+                "type": "symbol",
+                "id": "294:14133",
+                "name": "Theme=Client, Device=--mob, Style=Parcours",
+                "x": 1356,
+                "y": 338,
+                "width": 375,
+                "height": 56
+              },
+              {
+                "type": "symbol",
+                "id": "201:14260",
+                "name": "Theme=Prospect, Device=--desk, Style=Default",
+                "x": 43,
+                "y": 459,
+                "width": 1280,
+                "height": 89
+              },
+              {
+                "type": "symbol",
+                "id": "201:14259",
+                "name": "Theme=Prospect, Device=--mob, Style=Default",
+                "x": 43,
+                "y": 612,
+                "width": 399,
+                "height": 56
+              },
+              {
+                "type": "symbol",
+                "id": "294:13987",
+                "name": "Theme=Client, Device=--desk, Style=Default",
+                "x": 1340,
+                "y": 459,
+                "width": 1280,
+                "height": 90
+              },
+              {
+                "type": "symbol",
+                "id": "294:13986",
+                "name": "Theme=Client, Device=--mob, Style=Default",
+                "x": 1334,
+                "y": 612,
+                "width": 375,
+                "height": 59
+              }
+            ]
+          },
+          {
+            "type": "instance",
+            "id": "17280:57527",
+            "name": "UI DS",
+            "x": 95,
+            "y": 482,
+            "width": 1281,
+            "height": 52
+          },
+          {
+            "type": "frame",
+            "id": "19669:2234",
+            "name": "_Liens Evitement",
+            "x": 32,
+            "y": 1225,
+            "width": 1372,
+            "height": 112,
+            "children": [
+              {
+                "type": "symbol",
+                "id": "19669:2233",
+                "name": "Thème=Prospect",
+                "x": 16,
+                "y": 16,
+                "width": 1280,
+                "height": 32
+              },
+              {
+                "type": "symbol",
+                "id": "19669:2235",
+                "name": "Thème=Client",
+                "x": 16,
+                "y": 64,
+                "width": 1280,
+                "height": 32
+              }
+            ]
+          },
+          {
+            "type": "instance",
+            "id": "17280:57528",
+            "name": "UI DS",
+            "x": 1415,
+            "y": 481,
+            "width": 1281,
+            "height": 52
+          }
+        ]
+      },
+      {
+        "type": "instance",
+        "id": "36494:17476",
+        "name": "Header",
+        "x": 1059,
+        "y": 1651,
+        "width": 1280,
+        "height": 90
+      },
+      {
+        "type": "instance",
+        "id": "36494:17506",
+        "name": "Header",
+        "x": 1059,
+        "y": 1804,
+        "width": 1280,
+        "height": 90
+      },
+      {
+        "type": "instance",
+        "id": "36494:17410",
+        "name": "Header",
+        "x": 1070,
+        "y": 1527,
+        "width": 1280,
+        "height": 90
+      },
+      {
+        "type": "instance",
+        "id": "36494:17555",
+        "name": "Button Secondary",
+        "x": 2112,
+        "y": 1967,
+        "width": 191,
+        "height": 56
+      },
+      {
+        "type": "frame",
+        "id": "17280:57595",
+        "name": "Footer",
+        "x": -3297,
+        "y": -51,
+        "width": 2904,
+        "height": 1279,
+        "children": [
+          {
+            "type": "instance",
+            "id": "28062:55569",
+            "name": "Header Composants",
+            "x": 32,
+            "y": 32,
+            "width": 2840,
+            "height": 280
+          },
+          {
+            "type": "instance",
+            "id": "28062:55570",
+            "name": "Message",
+            "x": 32,
+            "y": 344,
+            "width": 2840,
+            "height": 56
+          },
+          {
+            "type": "frame",
+            "id": "57:33086",
+            "name": "Footer",
+            "x": 32,
+            "y": 432,
+            "width": 2840,
+            "height": 815,
+            "children": [
+              {
+                "type": "symbol",
+                "id": "74:46548",
+                "name": "Thème=Client, Device=--desk, Accordion=--",
+                "x": 1543,
+                "y": 137,
+                "width": 1280,
+                "height": 93
+              },
+              {
+                "type": "symbol",
+                "id": "74:46569",
+                "name": "Thème=Client, Device=--mob, Accordion=--folded",
+                "x": 2007,
+                "y": 331,
+                "width": 441,
+                "height": 164
+              },
+              {
+                "type": "symbol",
+                "id": "74:46599",
+                "name": "Thème=Client, Device=--mob, Accordion=--unfolded",
+                "x": 1543,
+                "y": 331,
+                "width": 441,
+                "height": 376
+              },
+              {
+                "type": "symbol",
+                "id": "57:33334",
+                "name": "Thème=Prospect, Device=--mob, Accordion=--unfolded",
+                "x": 102,
+                "y": 331,
+                "width": 375,
+                "height": 383
+              },
+              {
+                "type": "symbol",
+                "id": "400:14777",
+                "name": "Thème=Prospect, Device=--mob, Accordion=--folded",
+                "x": 495,
+                "y": 331,
+                "width": 375,
+                "height": 171
+              },
+              {
+                "type": "symbol",
+                "id": "400:16484",
+                "name": "Thème=Prospect, Device=--desk, Accordion=--",
+                "x": 102,
+                "y": 137,
+                "width": 1280,
+                "height": 171
+              }
+            ]
+          },
+          {
+            "type": "instance",
+            "id": "17280:57596",
+            "name": "UI DS",
+            "x": 107,
+            "y": 490,
+            "width": 1280,
+            "height": 52
+          },
+          {
+            "type": "instance",
+            "id": "17280:57597",
+            "name": "UI DS",
+            "x": 1518,
+            "y": 490,
+            "width": 1339,
+            "height": 52
+          }
+        ]
+      },
+      {
+        "type": "frame",
+        "id": "25598:1974",
+        "name": "Pagination",
+        "x": 2595,
+        "y": -51,
+        "width": 1332,
+        "height": 1358,
+        "children": [
+          {
+            "type": "instance",
+            "id": "28062:55647",
+            "name": "Header Composants",
+            "x": 32,
+            "y": 32,
+            "width": 1268,
+            "height": 280
+          },
+          {
+            "type": "instance",
+            "id": "28062:55648",
+            "name": "Message",
+            "x": 32,
+            "y": 344,
+            "width": 1268,
+            "height": 56
+          },
+          {
+            "type": "instance",
+            "id": "25598:1975",
+            "name": "UI DS",
+            "x": 679.5,
+            "y": 467,
+            "width": 437,
+            "height": 52
+          },
+          {
+            "type": "instance",
+            "id": "25598:1976",
+            "name": "UI DS",
+            "x": 136,
+            "y": 467,
+            "width": 437,
+            "height": 52
+          },
+          {
+            "type": "frame",
+            "id": "25598:1977",
+            "name": "Pagination",
+            "x": 61,
+            "y": 432,
+            "width": 1210,
+            "height": 894,
+            "children": [
+              {
+                "type": "symbol",
+                "id": "25598:1978",
+                "name": "Theme=Prospect, Device=--desk, Navigation=--page1, Number Page=--2",
+                "x": 96,
+                "y": 110,
+                "width": 224,
+                "height": 56
+              },
+              {
+                "type": "symbol",
+                "id": "25598:1983",
+                "name": "Theme=Prospect, Device=--desk, Navigation=--page1, Number Page=--3",
+                "x": 96,
+                "y": 186,
+                "width": 280,
+                "height": 56
+              },
+              {
+                "type": "symbol",
+                "id": "25598:1989",
+                "name": "Theme=Prospect, Device=--desk, Navigation=--page1, Number Page=--7",
+                "x": 96,
+                "y": 490,
+                "width": 504,
+                "height": 56
+              },
+              {
+                "type": "symbol",
+                "id": "25598:1999",
+                "name": "Theme=Prospect, Device=--desk, Navigation=--page1, Number Page=--more7",
+                "x": 96,
+                "y": 566,
+                "width": 504,
+                "height": 56
+              },
+              {
+                "type": "symbol",
+                "id": "25598:2009",
+                "name": "Theme=Prospect, Device=--desk, Navigation=--page1, Number Page=--6",
+                "x": 96,
+                "y": 414,
+                "width": 448,
+                "height": 56
+              },
+              {
+                "type": "symbol",
+                "id": "25598:2018",
+                "name": "Theme=Prospect, Device=--desk, Navigation=--page1, Number Page=--5",
+                "x": 96,
+                "y": 338,
+                "width": 392,
+                "height": 56
+              },
+              {
+                "type": "symbol",
+                "id": "25598:2026",
+                "name": "Theme=Prospect, Device=--desk, Navigation=--page1, Number Page=--4",
+                "x": 96,
+                "y": 262,
+                "width": 336,
+                "height": 56
+              },
+              {
+                "type": "symbol",
+                "id": "25598:2033",
+                "name": "Theme=Client, Device=--desk, Navigation=--page1, Number Page=--2",
+                "x": 655,
+                "y": 110,
+                "width": 224,
+                "height": 56
+              },
+              {
+                "type": "symbol",
+                "id": "25598:2038",
+                "name": "Theme=Client, Device=--desk, Navigation=--page1, Number Page=--3",
+                "x": 655,
+                "y": 186,
+                "width": 280,
+                "height": 56
+              },
+              {
+                "type": "symbol",
+                "id": "25598:2044",
+                "name": "Theme=Client, Device=--desk, Navigation=--page1, Number Page=--4",
+                "x": 655,
+                "y": 262,
+                "width": 336,
+                "height": 56
+              },
+              {
+                "type": "symbol",
+                "id": "25598:2051",
+                "name": "Theme=Client, Device=--desk, Navigation=--page1, Number Page=--5",
+                "x": 655,
+                "y": 338,
+                "width": 392,
+                "height": 56
+              },
+              {
+                "type": "symbol",
+                "id": "25598:2059",
+                "name": "Theme=Client, Device=--desk, Navigation=--page1, Number Page=--6",
+                "x": 655,
+                "y": 414,
+                "width": 448,
+                "height": 56
+              },
+              {
+                "type": "symbol",
+                "id": "25598:2068",
+                "name": "Theme=Client, Device=--desk, Navigation=--page1, Number Page=--7",
+                "x": 655,
+                "y": 490,
+                "width": 504,
+                "height": 56
+              },
+              {
+                "type": "symbol",
+                "id": "25598:2078",
+                "name": "Theme=Client, Device=--desk, Navigation=--page1, Number Page=--more7",
+                "x": 655,
+                "y": 566,
+                "width": 504,
+                "height": 56
+              },
+              {
+                "type": "symbol",
+                "id": "25598:2088",
+                "name": "Theme=Client, Device=--mob, Navigation=--page1, Number Page=--2",
+                "x": 655,
+                "y": 646,
+                "width": 165,
+                "height": 56
+              },
+              {
+                "type": "symbol",
+                "id": "25598:2092",
+                "name": "Theme=Client, Device=--mob, Navigation=--page2, Number Page=--2",
+                "x": 655,
+                "y": 716,
+                "width": 165,
+                "height": 56
+              },
+              {
+                "type": "symbol",
+                "id": "25598:2096",
+                "name": "Theme=Client, Device=--mob, Navigation=--page3, Number Page=--2",
+                "x": 655,
+                "y": 783,
+                "width": 165,
+                "height": 56
+              },
+              {
+                "type": "symbol",
+                "id": "25598:2100",
+                "name": "Theme=Prospect, Device=--mob, Navigation=--page1, Number Page=--2",
+                "x": 108,
+                "y": 646,
+                "width": 165,
+                "height": 56
+              },
+              {
+                "type": "symbol",
+                "id": "25598:2104",
+                "name": "Theme=Prospect, Device=--mob, Navigation=--page2, Number Page=--2",
+                "x": 108,
+                "y": 720,
+                "width": 165,
+                "height": 56
+              },
+              {
+                "type": "symbol",
+                "id": "25598:2108",
+                "name": "Theme=Prospect, Device=--mob, Navigation=--page3, Number Page=--2",
+                "x": 108,
+                "y": 793,
+                "width": 165,
+                "height": 56
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "frame",
+        "id": "17280:57733",
+        "name": "Menu Burger",
+        "x": 4007,
+        "y": -51,
+        "width": 1855,
+        "height": 1500,
+        "children": [
+          {
+            "type": "instance",
+            "id": "28062:55692",
+            "name": "Header Composants",
+            "x": 32,
+            "y": 32,
+            "width": 1791,
+            "height": 280
+          },
+          {
+            "type": "instance",
+            "id": "28062:55693",
+            "name": "Message",
+            "x": 32,
+            "y": 344,
+            "width": 1791,
+            "height": 56
+          },
+          {
+            "type": "frame",
+            "id": "201:8988",
+            "name": "Menu_Burger",
+            "x": 32,
+            "y": 432,
+            "width": 1791,
+            "height": 1036,
+            "children": [
+              {
+                "type": "symbol",
+                "id": "201:8989",
+                "name": "Theme=Client, Device=--desk",
+                "x": 1308,
+                "y": 150,
+                "width": 371,
+                "height": 680
+              },
+              {
+                "type": "symbol",
+                "id": "201:9008",
+                "name": "Theme=Client, Device=--mob",
+                "x": 906,
+                "y": 150,
+                "width": 375,
+                "height": 756
+              },
+              {
+                "type": "symbol",
+                "id": "202:14053",
+                "name": "Theme=Prospect, Device=--desk",
+                "x": 454,
+                "y": 150,
+                "width": 312,
+                "height": 704
+              },
+              {
+                "type": "symbol",
+                "id": "202:14056",
+                "name": "Theme=Prospect, Device=--mob",
+                "x": 63,
+                "y": 150,
+                "width": 375,
+                "height": 811
+              }
+            ]
+          },
+          {
+            "type": "instance",
+            "id": "17280:57734",
+            "name": "UI DS",
+            "x": 105,
+            "y": 495,
+            "width": 747,
+            "height": 52
+          },
+          {
+            "type": "instance",
+            "id": "17280:57735",
+            "name": "UI DS",
+            "x": 920,
+            "y": 495,
+            "width": 803,
+            "height": 52
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "id": "33889:57937",
+        "name": "i",
+        "x": -665.4590454101562,
+        "y": 507.26104736328125,
+        "width": 5,
+        "height": 23
+      }
+    ]
+  }
+}

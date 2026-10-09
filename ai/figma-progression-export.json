@@ -1,0 +1,1348 @@
+{
+  "formatVersion": "1.0.0",
+  "designSystem": "Canopée",
+  "source": {
+    "product": "Figma",
+    "method": "Figma MCP get_metadata",
+    "fileKey": "vwprvN2ELfI50pjU6MK1Ea",
+    "pageId": "17284:58563",
+    "pageName": "-> Progression",
+    "url": "https://www.figma.com/design/vwprvN2ELfI50pjU6MK1Ea/%E2%9C%A8-B2C-%E2%80%A2-Design-System-Canop%C3%A9e?m=dev&node-id=17284-58563",
+    "exportedAt": "2026-10-09T09:26:45+02:00"
+  },
+  "scope": {
+    "description": "Structure exposée par le MCP pour la page « -> Progression » et correspondances vers ai/component-registry.json.",
+    "limitations": [
+      "Le MCP get_metadata fournit types de nœud, identifiants, noms, coordonnées et dimensions ; les styles détaillés, variables, interactions et vecteurs ne sont pas inclus dans cette réponse.",
+      "Les entrées RECOMMANDATION et NON_CONFIRMÉ ne sont pas des équivalences certifiées.",
+      "Seules les pages Figma dont le nom commence par « -> » sont exportées."
+    ]
+  },
+  "statistics": {
+    "nodeCount": 136,
+    "nodeTypes": {
+      "canvas": 1,
+      "frame": 10,
+      "instance": 22,
+      "rounded-rectangle": 1,
+      "symbol": 102
+    },
+    "topLevelSections": 5,
+    "mappings": 5,
+    "mappedToRepository": 5,
+    "unresolved": 0
+  },
+  "repositoryMappings": [
+    {
+      "figmaNodeId": "17284:58566",
+      "figmaName": "Timeline Vertical",
+      "status": "OBSERVÉ",
+      "relationship": "name-alias",
+      "confidence": 0.98,
+      "evidence": "Timeline Vertical and nested Timeline_Vertical map to repository TimelineVertical.",
+      "repositoryComponent": {
+        "id": "timeline-vertical",
+        "name": "TimelineVertical",
+        "documentation": "timeline-vertical-synthese.md"
+      }
+    },
+    {
+      "figmaNodeId": "30153:27396",
+      "figmaName": "Loader",
+      "status": "OBSERVÉ",
+      "relationship": "same-component",
+      "confidence": 0.99,
+      "evidence": "Loader section matches the repository entry.",
+      "repositoryComponent": {
+        "id": "loader",
+        "name": "Loader",
+        "documentation": "loader-synthese.md"
+      }
+    },
+    {
+      "figmaNodeId": "17284:58641",
+      "figmaName": "Stepper",
+      "status": "OBSERVÉ",
+      "relationship": "same-component",
+      "confidence": 0.99,
+      "evidence": "Stepper section matches the repository entry.",
+      "repositoryComponent": {
+        "id": "stepper",
+        "name": "Stepper",
+        "documentation": "stepper-synthese.md"
+      }
+    },
+    {
+      "figmaNodeId": "17284:58648",
+      "figmaName": "Progress Bar Group",
+      "status": "OBSERVÉ",
+      "relationship": "name-alias",
+      "confidence": 0.98,
+      "evidence": "Progress Bar Group and nested _Progress_Bar_Group map to repository ProgressBarGroup.",
+      "repositoryComponent": {
+        "id": "progress-bar-group",
+        "name": "ProgressBarGroup",
+        "documentation": "progress-bar-group-synthese.md"
+      }
+    },
+    {
+      "figmaNodeId": "17284:58747",
+      "figmaName": "Spinner",
+      "status": "OBSERVÉ",
+      "relationship": "same-component",
+      "confidence": 0.99,
+      "evidence": "Spinner section matches the repository entry.",
+      "repositoryComponent": {
+        "id": "spinner",
+        "name": "Spinner",
+        "documentation": "spinner-synthese.md"
+      }
+    }
+  ],
+  "figmaPageTree": {
+    "type": "canvas",
+    "id": "17284:58563",
+    "name": "-> Progression",
+    "x": 0,
+    "y": 0,
+    "width": 0,
+    "height": 0,
+    "children": [
+      {
+        "type": "frame",
+        "id": "17284:58566",
+        "name": "Timeline Vertical",
+        "x": -207,
+        "y": 513,
+        "width": 1215,
+        "height": 1161,
+        "children": [
+          {
+            "type": "instance",
+            "id": "28062:55524",
+            "name": "Header Composants",
+            "x": 32,
+            "y": 32,
+            "width": 1151,
+            "height": 320
+          },
+          {
+            "type": "instance",
+            "id": "28062:55525",
+            "name": "Message",
+            "x": 32,
+            "y": 384,
+            "width": 1151,
+            "height": 56
+          },
+          {
+            "type": "frame",
+            "id": "146:13007",
+            "name": "Timeline_Vertical",
+            "x": 184.5,
+            "y": 472,
+            "width": 846,
+            "height": 657,
+            "children": [
+              {
+                "type": "symbol",
+                "id": "146:13008",
+                "name": "Theme=Client, Style=--desk",
+                "x": 476,
+                "y": 99,
+                "width": 310.5,
+                "height": 230
+              },
+              {
+                "type": "symbol",
+                "id": "146:13014",
+                "name": "Theme=Client, Style=--mob",
+                "x": 483,
+                "y": 394,
+                "width": 310.5,
+                "height": 194
+              },
+              {
+                "type": "symbol",
+                "id": "148:9299",
+                "name": "Theme=Prospect, Style=--desk",
+                "x": 59,
+                "y": 99,
+                "width": 310.5,
+                "height": 230
+              },
+              {
+                "type": "symbol",
+                "id": "148:9298",
+                "name": "Theme=Prospect, Style=--mob",
+                "x": 59,
+                "y": 394,
+                "width": 310.5,
+                "height": 194
+              }
+            ]
+          },
+          {
+            "type": "instance",
+            "id": "17284:58567",
+            "name": "UI DS",
+            "x": 636,
+            "y": 500,
+            "width": 362,
+            "height": 52
+          },
+          {
+            "type": "instance",
+            "id": "17284:58568",
+            "name": "UI DS",
+            "x": 219,
+            "y": 500,
+            "width": 362,
+            "height": 52
+          }
+        ]
+      },
+      {
+        "type": "frame",
+        "id": "30153:27396",
+        "name": "Loader",
+        "x": 1088,
+        "y": 513,
+        "width": 1215,
+        "height": 1584,
+        "children": [
+          {
+            "type": "instance",
+            "id": "30153:27397",
+            "name": "Header Composants",
+            "x": 32,
+            "y": 32,
+            "width": 1151,
+            "height": 280
+          },
+          {
+            "type": "instance",
+            "id": "30153:27398",
+            "name": "Message",
+            "x": 32,
+            "y": 344,
+            "width": 1151,
+            "height": 56
+          },
+          {
+            "type": "frame",
+            "id": "30064:10355",
+            "name": "Loader",
+            "x": 94.5,
+            "y": 432,
+            "width": 1026,
+            "height": 1120,
+            "children": [
+              {
+                "type": "symbol",
+                "id": "30064:10356",
+                "name": "Theme=--Prospect, Style=--default, Device=--desk",
+                "x": 118,
+                "y": 93,
+                "width": 310.5,
+                "height": 135
+              },
+              {
+                "type": "symbol",
+                "id": "30064:10361",
+                "name": "Theme=--Prospect, Style=--default, Device=--mob",
+                "x": 118,
+                "y": 255,
+                "width": 310.5,
+                "height": 130
+              },
+              {
+                "type": "symbol",
+                "id": "30064:10366",
+                "name": "Theme=--Client, Style=--default, Device=--desk",
+                "x": 604,
+                "y": 93,
+                "width": 310.5,
+                "height": 135
+              },
+              {
+                "type": "symbol",
+                "id": "30064:10371",
+                "name": "Theme=--Client, Style=--default, Device=--mob",
+                "x": 604,
+                "y": 255,
+                "width": 310.5,
+                "height": 130
+              },
+              {
+                "type": "symbol",
+                "id": "30064:10376",
+                "name": "Theme=--Prospect, Style=--modal, Device=--desk",
+                "x": 39.5,
+                "y": 433,
+                "width": 468,
+                "height": 314
+              },
+              {
+                "type": "symbol",
+                "id": "30064:10382",
+                "name": "Theme=--Prospect, Style=--modal, Device=--mob",
+                "x": 39.5,
+                "y": 764,
+                "width": 468,
+                "height": 314
+              },
+              {
+                "type": "symbol",
+                "id": "30064:10388",
+                "name": "Theme=--Client, Style=--modal, Device=--desk",
+                "x": 525,
+                "y": 433,
+                "width": 467,
+                "height": 314
+              },
+              {
+                "type": "symbol",
+                "id": "30064:10394",
+                "name": "Theme=--Client, Style=--modal, Device=--mob",
+                "x": 525,
+                "y": 764,
+                "width": 467,
+                "height": 314
+              }
+            ]
+          },
+          {
+            "type": "instance",
+            "id": "30153:27416",
+            "name": "UI DS",
+            "x": 680,
+            "y": 458,
+            "width": 362,
+            "height": 52
+          },
+          {
+            "type": "instance",
+            "id": "30153:27417",
+            "name": "UI DS",
+            "x": 187,
+            "y": 458,
+            "width": 362,
+            "height": 52
+          }
+        ]
+      },
+      {
+        "type": "frame",
+        "id": "17284:58641",
+        "name": "Stepper",
+        "x": -2798,
+        "y": 513,
+        "width": 1196,
+        "height": 941,
+        "children": [
+          {
+            "type": "instance",
+            "id": "28062:55434",
+            "name": "Header Composants",
+            "x": 32,
+            "y": 32,
+            "width": 1132,
+            "height": 280
+          },
+          {
+            "type": "instance",
+            "id": "28062:55435",
+            "name": "Message",
+            "x": 32,
+            "y": 344,
+            "width": 1132,
+            "height": 56
+          },
+          {
+            "type": "frame",
+            "id": "2:7068",
+            "name": "Stepper",
+            "x": 113,
+            "y": 432,
+            "width": 970,
+            "height": 477,
+            "children": [
+              {
+                "type": "symbol",
+                "id": "2:7094",
+                "name": "Theme=Prospect, Device=--desk",
+                "x": 28,
+                "y": 95,
+                "width": 400,
+                "height": 192
+              },
+              {
+                "type": "symbol",
+                "id": "2:7163",
+                "name": "Theme=Prospect, Device=--mob",
+                "x": 31,
+                "y": 300,
+                "width": 400,
+                "height": 116
+              },
+              {
+                "type": "symbol",
+                "id": "74:49553",
+                "name": "Theme=Client, Device=--desk",
+                "x": 488,
+                "y": 95,
+                "width": 400,
+                "height": 164
+              },
+              {
+                "type": "symbol",
+                "id": "113:9309",
+                "name": "Theme=Client, Device=--mob",
+                "x": 488,
+                "y": 300,
+                "width": 400,
+                "height": 121
+              }
+            ]
+          },
+          {
+            "type": "instance",
+            "id": "17284:58642",
+            "name": "UI DS",
+            "x": 139,
+            "y": 445,
+            "width": 438,
+            "height": 52
+          },
+          {
+            "type": "instance",
+            "id": "17284:58643",
+            "name": "UI DS",
+            "x": 586,
+            "y": 445,
+            "width": 438,
+            "height": 52
+          },
+          {
+            "type": "instance",
+            "id": "17284:58644",
+            "name": "UI DS",
+            "x": 1036,
+            "y": 516,
+            "width": 74,
+            "height": 169
+          },
+          {
+            "type": "instance",
+            "id": "17284:58645",
+            "name": "UI DS",
+            "x": 1036,
+            "y": 692,
+            "width": 74,
+            "height": 169
+          }
+        ]
+      },
+      {
+        "type": "frame",
+        "id": "17284:58648",
+        "name": "Progress Bar Group",
+        "x": -3972,
+        "y": 513,
+        "width": 1094,
+        "height": 881,
+        "children": [
+          {
+            "type": "instance",
+            "id": "28062:55389",
+            "name": "Header Composants",
+            "x": 32,
+            "y": 32,
+            "width": 1030,
+            "height": 280
+          },
+          {
+            "type": "instance",
+            "id": "28062:55390",
+            "name": "Message",
+            "x": 32,
+            "y": 344,
+            "width": 1030,
+            "height": 56
+          },
+          {
+            "type": "instance",
+            "id": "17284:58649",
+            "name": "UI DS",
+            "x": 876,
+            "y": 454,
+            "width": 90,
+            "height": 160
+          },
+          {
+            "type": "instance",
+            "id": "17284:58650",
+            "name": "UI DS",
+            "x": 876,
+            "y": 658,
+            "width": 70,
+            "height": 162
+          },
+          {
+            "type": "frame",
+            "id": "21:9350",
+            "name": "_Progress_Bar_Group",
+            "x": 118,
+            "y": 432,
+            "width": 858,
+            "height": 417,
+            "children": [
+              {
+                "type": "symbol",
+                "id": "21:9349",
+                "name": "Theme=Prospect, Step=8",
+                "x": 16,
+                "y": 42,
+                "width": 713,
+                "height": 6
+              },
+              {
+                "type": "symbol",
+                "id": "21:9351",
+                "name": "Theme=Prospect, Step=7",
+                "x": 16,
+                "y": 64,
+                "width": 713,
+                "height": 6
+              },
+              {
+                "type": "symbol",
+                "id": "21:9376",
+                "name": "Theme=Prospect, Step=6",
+                "x": 16,
+                "y": 86,
+                "width": 713,
+                "height": 6
+              },
+              {
+                "type": "symbol",
+                "id": "21:9401",
+                "name": "Theme=Prospect, Step=5",
+                "x": 16,
+                "y": 108,
+                "width": 713,
+                "height": 6
+              },
+              {
+                "type": "symbol",
+                "id": "21:9426",
+                "name": "Theme=Prospect, Step=4",
+                "x": 16,
+                "y": 130,
+                "width": 713,
+                "height": 6
+              },
+              {
+                "type": "symbol",
+                "id": "21:9477",
+                "name": "Theme=Prospect, Step=3",
+                "x": 16,
+                "y": 152,
+                "width": 713,
+                "height": 6
+              },
+              {
+                "type": "symbol",
+                "id": "7506:44446",
+                "name": "Theme=Prospect, Step=2",
+                "x": 16,
+                "y": 174,
+                "width": 713,
+                "height": 6
+              },
+              {
+                "type": "symbol",
+                "id": "111:9159",
+                "name": "Theme=Client, Step=8",
+                "x": 16,
+                "y": 246,
+                "width": 713,
+                "height": 6
+              },
+              {
+                "type": "symbol",
+                "id": "111:9168",
+                "name": "Theme=Client, Step=7",
+                "x": 16,
+                "y": 268,
+                "width": 713,
+                "height": 6
+              },
+              {
+                "type": "symbol",
+                "id": "111:9176",
+                "name": "Theme=Client, Step=6",
+                "x": 16,
+                "y": 290,
+                "width": 713,
+                "height": 6
+              },
+              {
+                "type": "symbol",
+                "id": "111:9183",
+                "name": "Theme=Client, Step=5",
+                "x": 16,
+                "y": 312,
+                "width": 713,
+                "height": 6
+              },
+              {
+                "type": "symbol",
+                "id": "111:9189",
+                "name": "Theme=Client, Step=4",
+                "x": 16,
+                "y": 334,
+                "width": 713,
+                "height": 6
+              },
+              {
+                "type": "symbol",
+                "id": "111:9194",
+                "name": "Theme=Client, Step=3",
+                "x": 16,
+                "y": 356,
+                "width": 713,
+                "height": 6
+              },
+              {
+                "type": "symbol",
+                "id": "7506:44457",
+                "name": "Theme=Client, Step=2",
+                "x": 16,
+                "y": 378,
+                "width": 713,
+                "height": 6
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "frame",
+        "id": "17284:58747",
+        "name": "Spinner",
+        "x": -1522,
+        "y": 513,
+        "width": 1235,
+        "height": 1061,
+        "children": [
+          {
+            "type": "instance",
+            "id": "28062:55479",
+            "name": "Header Composants",
+            "x": 32,
+            "y": 32,
+            "width": 1171,
+            "height": 280
+          },
+          {
+            "type": "instance",
+            "id": "28062:55480",
+            "name": "Message",
+            "x": 32,
+            "y": 344,
+            "width": 1171,
+            "height": 56
+          },
+          {
+            "type": "rounded-rectangle",
+            "id": "17284:58748",
+            "name": "Rectangle 1119",
+            "x": 395,
+            "y": 840,
+            "width": 488,
+            "height": 150
+          },
+          {
+            "type": "frame",
+            "id": "36:4827",
+            "name": "Spinner",
+            "x": 316,
+            "y": 432,
+            "width": 603,
+            "height": 597,
+            "children": [
+              {
+                "type": "symbol",
+                "id": "54:20000",
+                "name": "Thème=Prospect, Animation=1, Color=--primary, Size=--24",
+                "x": 115.5,
+                "y": 240,
+                "width": 24,
+                "height": 24
+              },
+              {
+                "type": "symbol",
+                "id": "54:20085",
+                "name": "Thème=Prospect, Animation=1, Color=--primary, Size=--32",
+                "x": 115.5,
+                "y": 200,
+                "width": 32,
+                "height": 32
+              },
+              {
+                "type": "symbol",
+                "id": "27565:20074",
+                "name": "Thème=Prospect, Animation=1, Color=--primary, Size=--40",
+                "x": 115.5,
+                "y": 152,
+                "width": 40,
+                "height": 40
+              },
+              {
+                "type": "symbol",
+                "id": "54:20037",
+                "name": "Thème=Prospect, Animation=1, Color=--tertiary, Size=--24",
+                "x": 115.5,
+                "y": 512,
+                "width": 24,
+                "height": 24
+              },
+              {
+                "type": "symbol",
+                "id": "54:20089",
+                "name": "Thème=Prospect, Animation=1, Color=--tertiary, Size=--32",
+                "x": 115.5,
+                "y": 472,
+                "width": 32,
+                "height": 32
+              },
+              {
+                "type": "symbol",
+                "id": "54:20161",
+                "name": "Thème=Prospect, Animation=1, Color=--tertiary, Size=--40",
+                "x": 115.5,
+                "y": 424,
+                "width": 40,
+                "height": 40
+              },
+              {
+                "type": "symbol",
+                "id": "54:20013",
+                "name": "Thème=Prospect, Animation=1, Color=--secondary, Size=--24",
+                "x": 115.5,
+                "y": 376,
+                "width": 24,
+                "height": 24
+              },
+              {
+                "type": "symbol",
+                "id": "54:20093",
+                "name": "Thème=Prospect, Animation=1, Color=--secondary, Size=--32",
+                "x": 115.5,
+                "y": 336,
+                "width": 32,
+                "height": 32
+              },
+              {
+                "type": "symbol",
+                "id": "54:20165",
+                "name": "Thème=Prospect, Animation=1, Color=--secondary, Size=--40",
+                "x": 115.5,
+                "y": 288,
+                "width": 40,
+                "height": 40
+              },
+              {
+                "type": "symbol",
+                "id": "54:19999",
+                "name": "Thème=Prospect, Animation=2, Color=--primary, Size=--24",
+                "x": 165.5,
+                "y": 240,
+                "width": 24,
+                "height": 24
+              },
+              {
+                "type": "symbol",
+                "id": "54:20097",
+                "name": "Thème=Prospect, Animation=2, Color=--primary, Size=--32",
+                "x": 165.5,
+                "y": 200,
+                "width": 32,
+                "height": 32
+              },
+              {
+                "type": "symbol",
+                "id": "27565:20098",
+                "name": "Thème=Prospect, Animation=2, Color=--primary, Size=--40",
+                "x": 165.5,
+                "y": 152,
+                "width": 40,
+                "height": 40
+              },
+              {
+                "type": "symbol",
+                "id": "54:20041",
+                "name": "Thème=Prospect, Animation=2, Color=--tertiary, Size=--24",
+                "x": 165.5,
+                "y": 512,
+                "width": 24,
+                "height": 24
+              },
+              {
+                "type": "symbol",
+                "id": "54:20101",
+                "name": "Thème=Prospect, Animation=2, Color=--tertiary, Size=--32",
+                "x": 165.5,
+                "y": 472,
+                "width": 32,
+                "height": 32
+              },
+              {
+                "type": "symbol",
+                "id": "54:20173",
+                "name": "Thème=Prospect, Animation=2, Color=--tertiary, Size=--40",
+                "x": 165.5,
+                "y": 424,
+                "width": 40,
+                "height": 40
+              },
+              {
+                "type": "symbol",
+                "id": "54:20017",
+                "name": "Thème=Prospect, Animation=2, Color=--secondary, Size=--24",
+                "x": 165.5,
+                "y": 376,
+                "width": 24,
+                "height": 24
+              },
+              {
+                "type": "symbol",
+                "id": "54:20105",
+                "name": "Thème=Prospect, Animation=2, Color=--secondary, Size=--32",
+                "x": 165.5,
+                "y": 336,
+                "width": 32,
+                "height": 32
+              },
+              {
+                "type": "symbol",
+                "id": "54:20177",
+                "name": "Thème=Prospect, Animation=2, Color=--secondary, Size=--40",
+                "x": 165.5,
+                "y": 288,
+                "width": 40,
+                "height": 40
+              },
+              {
+                "type": "symbol",
+                "id": "54:19998",
+                "name": "Thème=Prospect, Animation=3, Color=--primary, Size=--24",
+                "x": 215.5,
+                "y": 240,
+                "width": 24,
+                "height": 24
+              },
+              {
+                "type": "symbol",
+                "id": "17464:1066",
+                "name": "Thème=Prospect, Animation=4, Color=--primary, Size=--24",
+                "x": 265.5,
+                "y": 240,
+                "width": 24,
+                "height": 24
+              },
+              {
+                "type": "symbol",
+                "id": "54:20109",
+                "name": "Thème=Prospect, Animation=3, Color=--primary, Size=--32",
+                "x": 215.5,
+                "y": 200,
+                "width": 32,
+                "height": 32
+              },
+              {
+                "type": "symbol",
+                "id": "27565:20102",
+                "name": "Thème=Prospect, Animation=3, Color=--primary, Size=--40",
+                "x": 215.5,
+                "y": 152,
+                "width": 40,
+                "height": 40
+              },
+              {
+                "type": "symbol",
+                "id": "17464:1057",
+                "name": "Thème=Prospect, Animation=4, Color=--primary, Size=--32",
+                "x": 265.5,
+                "y": 200,
+                "width": 32,
+                "height": 32
+              },
+              {
+                "type": "symbol",
+                "id": "27565:20106",
+                "name": "Thème=Prospect, Animation=4, Color=--primary, Size=--40",
+                "x": 265.5,
+                "y": 152,
+                "width": 40,
+                "height": 40
+              },
+              {
+                "type": "symbol",
+                "id": "54:20045",
+                "name": "Thème=Prospect, Animation=3, Color=--tertiary, Size=--24",
+                "x": 215.5,
+                "y": 512,
+                "width": 24,
+                "height": 24
+              },
+              {
+                "type": "symbol",
+                "id": "17464:6465",
+                "name": "Thème=Prospect, Animation=4, Color=--tertiary, Size=--24",
+                "x": 266.5,
+                "y": 512,
+                "width": 24,
+                "height": 24
+              },
+              {
+                "type": "symbol",
+                "id": "54:20113",
+                "name": "Thème=Prospect, Animation=3, Color=--tertiary, Size=--32",
+                "x": 215.5,
+                "y": 472,
+                "width": 32,
+                "height": 32
+              },
+              {
+                "type": "symbol",
+                "id": "17464:6469",
+                "name": "Thème=Prospect, Animation=4, Color=--tertiary, Size=--32",
+                "x": 266.5,
+                "y": 472,
+                "width": 32,
+                "height": 32
+              },
+              {
+                "type": "symbol",
+                "id": "54:20185",
+                "name": "Thème=Prospect, Animation=3, Color=--tertiary, Size=--40",
+                "x": 215.5,
+                "y": 424,
+                "width": 40,
+                "height": 40
+              },
+              {
+                "type": "symbol",
+                "id": "17464:6473",
+                "name": "Thème=Prospect, Animation=4, Color=--tertiary, Size=--40",
+                "x": 266.5,
+                "y": 424,
+                "width": 40,
+                "height": 40
+              },
+              {
+                "type": "symbol",
+                "id": "54:20021",
+                "name": "Thème=Prospect, Animation=3, Color=--secondary, Size=--24",
+                "x": 215.5,
+                "y": 376,
+                "width": 24,
+                "height": 24
+              },
+              {
+                "type": "symbol",
+                "id": "54:20117",
+                "name": "Thème=Prospect, Animation=3, Color=--secondary, Size=--32",
+                "x": 215.5,
+                "y": 336,
+                "width": 32,
+                "height": 32
+              },
+              {
+                "type": "symbol",
+                "id": "54:20189",
+                "name": "Thème=Prospect, Animation=3, Color=--secondary, Size=--40",
+                "x": 215.5,
+                "y": 288,
+                "width": 40,
+                "height": 40
+              },
+              {
+                "type": "symbol",
+                "id": "17464:6441",
+                "name": "Thème=Prospect, Animation=4, Color=--secondary, Size=--24",
+                "x": 264.5,
+                "y": 376,
+                "width": 24,
+                "height": 24
+              },
+              {
+                "type": "symbol",
+                "id": "17464:6445",
+                "name": "Thème=Prospect, Animation=4, Color=--secondary, Size=--32",
+                "x": 264.5,
+                "y": 336,
+                "width": 32,
+                "height": 32
+              },
+              {
+                "type": "symbol",
+                "id": "17464:6449",
+                "name": "Thème=Prospect, Animation=4, Color=--secondary, Size=--40",
+                "x": 264.5,
+                "y": 288,
+                "width": 40,
+                "height": 40
+              },
+              {
+                "type": "symbol",
+                "id": "74:49964",
+                "name": "Thème=Client, Animation=1, Color=--primary, Size=--24",
+                "x": 359.5,
+                "y": 240,
+                "width": 24,
+                "height": 24
+              },
+              {
+                "type": "symbol",
+                "id": "74:49973",
+                "name": "Thème=Client, Animation=1, Color=--primary, Size=--32",
+                "x": 367.5,
+                "y": 200,
+                "width": 32,
+                "height": 32
+              },
+              {
+                "type": "symbol",
+                "id": "74:49982",
+                "name": "Thème=Client, Animation=1, Color=--primary, Size=--40",
+                "x": 375.5,
+                "y": 152,
+                "width": 40,
+                "height": 40
+              },
+              {
+                "type": "symbol",
+                "id": "74:49991",
+                "name": "Thème=Client, Animation=2, Color=--primary, Size=--24",
+                "x": 415.5,
+                "y": 240,
+                "width": 24,
+                "height": 24
+              },
+              {
+                "type": "symbol",
+                "id": "74:50000",
+                "name": "Thème=Client, Animation=2, Color=--primary, Size=--32",
+                "x": 423.5,
+                "y": 200,
+                "width": 32,
+                "height": 32
+              },
+              {
+                "type": "symbol",
+                "id": "74:50009",
+                "name": "Thème=Client, Animation=2, Color=--primary, Size=--40",
+                "x": 431.5,
+                "y": 152,
+                "width": 40,
+                "height": 40
+              },
+              {
+                "type": "symbol",
+                "id": "74:50018",
+                "name": "Thème=Client, Animation=3, Color=--primary, Size=--24",
+                "x": 471.5,
+                "y": 240,
+                "width": 24,
+                "height": 24
+              },
+              {
+                "type": "symbol",
+                "id": "29055:16630",
+                "name": "Thème=Client, Animation=4, Color=--primary, Size=--24",
+                "x": 523,
+                "y": 240,
+                "width": 24,
+                "height": 24
+              },
+              {
+                "type": "symbol",
+                "id": "74:50027",
+                "name": "Thème=Client, Animation=3, Color=--primary, Size=--32",
+                "x": 479.5,
+                "y": 200,
+                "width": 32,
+                "height": 32
+              },
+              {
+                "type": "symbol",
+                "id": "29055:16624",
+                "name": "Thème=Client, Animation=4, Color=--primary, Size=--32",
+                "x": 529,
+                "y": 200,
+                "width": 32,
+                "height": 32
+              },
+              {
+                "type": "symbol",
+                "id": "74:50036",
+                "name": "Thème=Client, Animation=3, Color=--primary, Size=--40",
+                "x": 487.5,
+                "y": 152,
+                "width": 40,
+                "height": 40
+              },
+              {
+                "type": "symbol",
+                "id": "29055:16618",
+                "name": "Thème=Client, Animation=4, Color=--primary, Size=--40",
+                "x": 537,
+                "y": 152,
+                "width": 40,
+                "height": 40
+              },
+              {
+                "type": "symbol",
+                "id": "74:49967",
+                "name": "Thème=Client, Animation=1, Color=--secondary, Size=--24",
+                "x": 359.5,
+                "y": 376,
+                "width": 24,
+                "height": 24
+              },
+              {
+                "type": "symbol",
+                "id": "74:49976",
+                "name": "Thème=Client, Animation=1, Color=--secondary, Size=--32",
+                "x": 367.5,
+                "y": 336,
+                "width": 32,
+                "height": 32
+              },
+              {
+                "type": "symbol",
+                "id": "74:49985",
+                "name": "Thème=Client, Animation=1, Color=--secondary, Size=--40",
+                "x": 375.5,
+                "y": 288,
+                "width": 40,
+                "height": 40
+              },
+              {
+                "type": "symbol",
+                "id": "74:49994",
+                "name": "Thème=Client, Animation=2, Color=--secondary, Size=--24",
+                "x": 415.5,
+                "y": 376,
+                "width": 24,
+                "height": 24
+              },
+              {
+                "type": "symbol",
+                "id": "74:50003",
+                "name": "Thème=Client, Animation=2, Color=--secondary, Size=--32",
+                "x": 423.5,
+                "y": 336,
+                "width": 32,
+                "height": 32
+              },
+              {
+                "type": "symbol",
+                "id": "74:50012",
+                "name": "Thème=Client, Animation=2, Color=--secondary, Size=--40",
+                "x": 431.5,
+                "y": 288,
+                "width": 40,
+                "height": 40
+              },
+              {
+                "type": "symbol",
+                "id": "74:50021",
+                "name": "Thème=Client, Animation=3, Color=--secondary, Size=--24",
+                "x": 471.5,
+                "y": 376,
+                "width": 24,
+                "height": 24
+              },
+              {
+                "type": "symbol",
+                "id": "29055:16642",
+                "name": "Thème=Client, Animation=4, Color=--secondary, Size=--24",
+                "x": 527,
+                "y": 376,
+                "width": 24,
+                "height": 24
+              },
+              {
+                "type": "symbol",
+                "id": "74:50030",
+                "name": "Thème=Client, Animation=3, Color=--secondary, Size=--32",
+                "x": 479.5,
+                "y": 336,
+                "width": 32,
+                "height": 32
+              },
+              {
+                "type": "symbol",
+                "id": "29055:16645",
+                "name": "Thème=Client, Animation=4, Color=--secondary, Size=--32",
+                "x": 535,
+                "y": 336,
+                "width": 32,
+                "height": 32
+              },
+              {
+                "type": "symbol",
+                "id": "74:50039",
+                "name": "Thème=Client, Animation=3, Color=--secondary, Size=--40",
+                "x": 487.5,
+                "y": 288,
+                "width": 40,
+                "height": 40
+              },
+              {
+                "type": "symbol",
+                "id": "29055:16648",
+                "name": "Thème=Client, Animation=4, Color=--secondary, Size=--40",
+                "x": 543,
+                "y": 288,
+                "width": 40,
+                "height": 40
+              },
+              {
+                "type": "symbol",
+                "id": "74:49970",
+                "name": "Thème=Client, Animation=1, Color=--tertiary, Size=--24",
+                "x": 359.5,
+                "y": 512,
+                "width": 24,
+                "height": 24
+              },
+              {
+                "type": "symbol",
+                "id": "74:49979",
+                "name": "Thème=Client, Animation=1, Color=--tertiary, Size=--32",
+                "x": 367.5,
+                "y": 472,
+                "width": 32,
+                "height": 32
+              },
+              {
+                "type": "symbol",
+                "id": "74:49988",
+                "name": "Thème=Client, Animation=1, Color=--tertiary, Size=--40",
+                "x": 375.5,
+                "y": 424,
+                "width": 40,
+                "height": 40
+              },
+              {
+                "type": "symbol",
+                "id": "74:49997",
+                "name": "Thème=Client, Animation=2, Color=--tertiary, Size=--24",
+                "x": 415.5,
+                "y": 512,
+                "width": 24,
+                "height": 24
+              },
+              {
+                "type": "symbol",
+                "id": "74:50006",
+                "name": "Thème=Client, Animation=2, Color=--tertiary, Size=--32",
+                "x": 423.5,
+                "y": 472,
+                "width": 32,
+                "height": 32
+              },
+              {
+                "type": "symbol",
+                "id": "74:50015",
+                "name": "Thème=Client, Animation=2, Color=--tertiary, Size=--40",
+                "x": 431.5,
+                "y": 424,
+                "width": 40,
+                "height": 40
+              },
+              {
+                "type": "symbol",
+                "id": "74:50024",
+                "name": "Thème=Client, Animation=3, Color=--tertiary, Size=--24",
+                "x": 471.5,
+                "y": 512,
+                "width": 24,
+                "height": 24
+              },
+              {
+                "type": "symbol",
+                "id": "29055:16660",
+                "name": "Thème=Client, Animation=4, Color=--tertiary, Size=--24",
+                "x": 527,
+                "y": 512,
+                "width": 24,
+                "height": 24
+              },
+              {
+                "type": "symbol",
+                "id": "74:50033",
+                "name": "Thème=Client, Animation=3, Color=--tertiary, Size=--32",
+                "x": 479.5,
+                "y": 472,
+                "width": 32,
+                "height": 32
+              },
+              {
+                "type": "symbol",
+                "id": "29055:16663",
+                "name": "Thème=Client, Animation=4, Color=--tertiary, Size=--32",
+                "x": 535,
+                "y": 472,
+                "width": 32,
+                "height": 32
+              },
+              {
+                "type": "symbol",
+                "id": "74:50042",
+                "name": "Thème=Client, Animation=3, Color=--tertiary, Size=--40",
+                "x": 487.5,
+                "y": 424,
+                "width": 40,
+                "height": 40
+              },
+              {
+                "type": "symbol",
+                "id": "29055:16666",
+                "name": "Thème=Client, Animation=4, Color=--tertiary, Size=--40",
+                "x": 543,
+                "y": 424,
+                "width": 40,
+                "height": 40
+              }
+            ]
+          },
+          {
+            "type": "instance",
+            "id": "17284:58749",
+            "name": "UI DS",
+            "x": 418,
+            "y": 498,
+            "width": 183,
+            "height": 52
+          },
+          {
+            "type": "instance",
+            "id": "17284:58750",
+            "name": "UI DS",
+            "x": 658,
+            "y": 498,
+            "width": 183,
+            "height": 52
+          }
+        ]
+      }
+    ]
+  }
+}
