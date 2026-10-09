@@ -1,0 +1,77 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/Remi-DS/Composants/blob/main/ai/schemas/component-relations.schema.json",
+  "title": "Canopée AI component relations",
+  "type": "object",
+  "required": [
+    "registryVersion",
+    "designSystem",
+    "relations"
+  ],
+  "properties": {
+    "$schema": {
+      "type": "string"
+    },
+    "registryVersion": {
+      "type": "string"
+    },
+    "designSystem": {
+      "const": "Canopée"
+    },
+    "purpose": {
+      "type": "string"
+    },
+    "relations": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "from",
+          "to",
+          "type",
+          "status",
+          "rule",
+          "source"
+        ],
+        "properties": {
+          "from": {
+            "type": "string"
+          },
+          "to": {
+            "type": "string"
+          },
+          "type": {
+            "type": "string",
+            "enum": [
+              "paired-with",
+              "composed-with",
+              "optional-composition",
+              "contains",
+              "related-to"
+            ]
+          },
+          "status": {
+            "type": "string",
+            "enum": [
+              "documented",
+              "implemented",
+              "observed",
+              "recommendation",
+              "non_confirmed"
+            ]
+          },
+          "rule": {
+            "type": "string",
+            "minLength": 1
+          },
+          "source": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "additionalProperties": true
+      }
+    }
+  },
+  "additionalProperties": true
+}
