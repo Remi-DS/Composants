@@ -1,0 +1,98 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/Remi-DS/Composants/blob/main/ai/schemas/component-registry.schema.json",
+  "title": "Canopée AI component registry",
+  "type": "object",
+  "required": [
+    "registryVersion",
+    "designSystem",
+    "components"
+  ],
+  "properties": {
+    "$schema": {
+      "type": "string"
+    },
+    "registryVersion": {
+      "type": "string"
+    },
+    "designSystem": {
+      "const": "Canopée"
+    },
+    "purpose": {
+      "type": "string"
+    },
+    "sourceOfTruthForIndex": {
+      "type": "string"
+    },
+    "components": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "name",
+          "status",
+          "documentation"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+          },
+          "name": {
+            "type": "string",
+            "minLength": 1
+          },
+          "status": {
+            "type": "string",
+            "enum": [
+              "documented",
+              "documented_visual",
+              "implemented",
+              "observed",
+              "recommendation",
+              "non_confirmed"
+            ]
+          },
+          "documentation": {
+            "type": "string"
+          },
+          "summary": {
+            "type": "string"
+          },
+          "universes": {
+            "type": "array",
+            "items": {
+              "enum": [
+                "Prospect",
+                "Client",
+                "Slash"
+              ]
+            },
+            "uniqueItems": true
+          },
+          "sourceScope": {
+            "type": "string"
+          },
+          "aiRouting": {
+            "type": "object",
+            "properties": {
+              "readBeforeUse": {
+                "type": "boolean"
+              },
+              "fullDocumentationRequiredForValidation": {
+                "type": "boolean"
+              },
+              "verifyUniverseAndRuntime": {
+                "type": "boolean"
+              }
+            },
+            "additionalProperties": true
+          }
+        },
+        "additionalProperties": true
+      }
+    }
+  },
+  "additionalProperties": true
+}
