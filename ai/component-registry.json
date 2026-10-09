@@ -1,77 +1,1167 @@
 {
-  "$schema":"https://json-schema.org/draft/2020-12/schema",
-  "registryVersion":"0.2.0",
-  "designSystem":"Canopée",
-  "purpose":"Index machine-readable des composants documentés dans ce dépôt. Les détails de variantes, états, responsive et implémentation restent dans les fiches de synthèse.",
-  "sourceOfTruthForIndex":"README.md",
-  "components":[
-    {"id":"accordion","name":"Accordion","status":"documented","documentation":"../accordion-synthese.md","summary":"../accordion-synthese.md","universes":["Prospect","Client"],"aiRouting":{"readBeforeUse":true,"fullDocumentationRequiredForValidation":true}},
-    {"id":"accordion-contextual","name":"Accordion Contextual","status":"documented","documentation":"../accordion-contextual-synthese.md","summary":"../accordion-contextual-synthese.md","universes":["Prospect","Client"],"aiRouting":{"readBeforeUse":true,"fullDocumentationRequiredForValidation":true}},
-    {"id":"accordion-core","name":"Accordion Core","status":"documented","documentation":"../accordion-core-synthese.md","summary":"../accordion-core-synthese.md","universes":["Prospect","Client"],"aiRouting":{"readBeforeUse":true,"fullDocumentationRequiredForValidation":true}},
-    {"id":"app-name","name":"AppName","status":"documented","documentation":"../app-name-synthese.md","summary":"../app-name-synthese.md","universes":["Prospect","Client"],"aiRouting":{"readBeforeUse":true,"fullDocumentationRequiredForValidation":true}},
-    {"id":"base-picture","name":"BasePicture","status":"documented","documentation":"../base-picture-synthese.md","summary":"../base-picture-synthese.md","universes":["Prospect","Client"],"aiRouting":{"readBeforeUse":true,"fullDocumentationRequiredForValidation":true}},
-    {"id":"button-primary","name":"Button Primary","status":"documented","documentation":"../button-primary.md","summary":"../button-primary-synthese.md","universes":["Prospect","Client"],"category":"action","implementation":{"framework":"React","component":"Button","package":"@axa-fr/canopee-react/prospect","scope":"Prospect"},"variants":["Default","Business","Inverse"],"states":["Default","Hover","Active","Disabled","Focus"],"devices":["Desktop","Mobile"],"storybook":"https://axafrance.github.io/design-system/prospect/react/latest/?path=/docs/components-button--button","zeroheight":"https://zeroheight.com/49b6215d6/v/latest/p/311401--test-v2-button-primary","knownLimitations":["Client React implementation not examined.","Exact TypeScript signatures are not certified.","Accessibility is not presented as WCAG/RGAA certification.","Figma JSON values are comparative when Storybook has priority."],"aiRouting":{"readBeforeUse":true,"fullDocumentationRequiredForValidation":true}},
-    {"id":"card","name":"Card","status":"documented","documentation":"../card-synthese.md","summary":"../card-synthese.md","universes":["Prospect","Client"],"aiRouting":{"readBeforeUse":true,"fullDocumentationRequiredForValidation":true}},
-    {"id":"card-checkbox","name":"CardCheckbox","status":"documented","documentation":"../card-checkbox-synthese.md","summary":"../card-checkbox-synthese.md","universes":["Prospect","Client"],"aiRouting":{"readBeforeUse":true,"fullDocumentationRequiredForValidation":true}},
-    {"id":"card-checkbox-option","name":"CardCheckboxOption","status":"documented","documentation":"../card-checkbox-option-synthese.md","summary":"../card-checkbox-option-synthese.md","universes":["Prospect","Client"],"aiRouting":{"readBeforeUse":true,"fullDocumentationRequiredForValidation":true}},
-    {"id":"card-message","name":"CardMessage","status":"documented","documentation":"../card-message-synthese.md","summary":"../card-message-synthese.md","universes":["Prospect","Client"],"aiRouting":{"readBeforeUse":true,"fullDocumentationRequiredForValidation":true}},
-    {"id":"card-radio","name":"CardRadio","status":"documented","documentation":"../card-radio-synthese.md","summary":"../card-radio-synthese.md","universes":["Prospect","Client"],"aiRouting":{"readBeforeUse":true,"fullDocumentationRequiredForValidation":true}},
-    {"id":"card-radio-group","name":"CardRadioGroup","status":"documented","documentation":"../card-radio-group-synthese.md","summary":"../card-radio-group-synthese.md","universes":["Prospect","Client"],"aiRouting":{"readBeforeUse":true,"fullDocumentationRequiredForValidation":true}},
-    {"id":"checkbox","name":"Checkbox","status":"documented","documentation":"../checkbox-synthese.md","summary":"../checkbox-synthese.md","universes":["Prospect","Client"],"aiRouting":{"readBeforeUse":true,"fullDocumentationRequiredForValidation":true}},
-    {"id":"checkbox-text","name":"CheckboxText","status":"documented","documentation":"../checkbox-text-synthese.md","summary":"../checkbox-text-synthese.md","universes":["Prospect","Client"],"aiRouting":{"readBeforeUse":true,"fullDocumentationRequiredForValidation":true}},
-    {"id":"click-icon","name":"ClickIcon","status":"documented","documentation":"../click-icon-synthese.md","summary":"../click-icon-synthese.md","universes":["Prospect","Client"],"aiRouting":{"readBeforeUse":true,"fullDocumentationRequiredForValidation":true}},
-    {"id":"click-item","name":"ClickItem","status":"documented","documentation":"../click-item-synthese.md","summary":"../click-item-synthese.md","universes":["Prospect","Client"],"aiRouting":{"readBeforeUse":true,"fullDocumentationRequiredForValidation":true}},
-    {"id":"content-item-duo","name":"ContentItemDuo","status":"documented","documentation":"../content-item-duo-synthese.md","summary":"../content-item-duo-synthese.md","universes":["Prospect","Client"],"aiRouting":{"readBeforeUse":true,"fullDocumentationRequiredForValidation":true}},
-    {"id":"content-item-duo-action","name":"ContentItemDuoAction","status":"documented","documentation":"../content-item-duo-action-synthese.md","summary":"../content-item-duo-action-synthese.md","universes":["Prospect","Client"],"aiRouting":{"readBeforeUse":true,"fullDocumentationRequiredForValidation":true}},
-    {"id":"content-item-mono","name":"ContentItemMono","status":"documented","documentation":"../content-item-mono-synthese.md","summary":"../content-item-mono-synthese.md","universes":["Prospect","Client"],"aiRouting":{"readBeforeUse":true,"fullDocumentationRequiredForValidation":true}},
-    {"id":"data-agent","name":"DataAgent","status":"documented","documentation":"../data-agent-synthese.md","summary":"../data-agent-synthese.md","universes":["Prospect","Client"],"aiRouting":{"readBeforeUse":true,"fullDocumentationRequiredForValidation":true}},
-    {"id":"divider","name":"Divider","status":"documented","documentation":"../divider-synthese.md","summary":"../divider-synthese.md","universes":["Prospect","Client"],"aiRouting":{"readBeforeUse":true,"fullDocumentationRequiredForValidation":true}},
-    {"id":"dropdown","name":"Dropdown","status":"documented","documentation":"../dropdown-synthese.md","summary":"../dropdown-synthese.md","universes":["Prospect","Client"],"aiRouting":{"readBeforeUse":true,"fullDocumentationRequiredForValidation":true}},
-    {"id":"fieldset","name":"Fieldset","status":"documented","documentation":"../fieldset-synthese.md","summary":"../fieldset-synthese.md","universes":["Prospect","Client"],"aiRouting":{"readBeforeUse":true,"fullDocumentationRequiredForValidation":true}},
-    {"id":"file-upload","name":"FileUpload","status":"documented","documentation":"../file-upload-synthese.md","summary":"../file-upload-synthese.md","universes":["Prospect","Client"],"aiRouting":{"readBeforeUse":true,"fullDocumentationRequiredForValidation":true}},
-    {"id":"footer","name":"Footer","status":"documented","documentation":"../footer-synthese.md","summary":"../footer-synthese.md","universes":["Prospect","Client"],"aiRouting":{"readBeforeUse":true,"fullDocumentationRequiredForValidation":true}},
-    {"id":"header","name":"Header","status":"documented","documentation":"../header-synthese.md","summary":"../header-synthese.md","universes":["Prospect","Client"],"aiRouting":{"readBeforeUse":true,"fullDocumentationRequiredForValidation":true}},
-    {"id":"heading","name":"Heading","status":"documented","documentation":"../heading-synthese.md","summary":"../heading-synthese.md","universes":["Prospect","Client"],"aiRouting":{"readBeforeUse":true,"fullDocumentationRequiredForValidation":true}},
-    {"id":"icon","name":"Icon","status":"documented","documentation":"../icon-synthese.md","summary":"../icon-synthese.md","universes":["Prospect","Client"],"aiRouting":{"readBeforeUse":true,"fullDocumentationRequiredForValidation":true}},
-    {"id":"input-date","name":"InputDate","status":"documented","documentation":"../input-date-synthese.md","summary":"../input-date-synthese.md","universes":["Prospect","Client"],"aiRouting":{"readBeforeUse":true,"fullDocumentationRequiredForValidation":true}},
-    {"id":"input-file","name":"InputFile","status":"documented","documentation":"../input-file-synthese.md","summary":"../input-file-synthese.md","universes":["Prospect","Client"],"aiRouting":{"readBeforeUse":true,"fullDocumentationRequiredForValidation":true}},
-    {"id":"input-phone","name":"InputPhone","status":"documented","documentation":"../input-phone-synthese.md","summary":"../input-phone-synthese.md","universes":["Prospect","Client"],"aiRouting":{"readBeforeUse":true,"fullDocumentationRequiredForValidation":true}},
-    {"id":"input-text","name":"InputText","status":"documented","documentation":"../input-text-synthese.md","summary":"../input-text-synthese.md","universes":["Prospect","Client"],"aiRouting":{"readBeforeUse":true,"fullDocumentationRequiredForValidation":true}},
-    {"id":"item-file","name":"ItemFile","status":"documented","documentation":"../item-file-synthese.md","summary":"../item-file-synthese.md","universes":["Prospect","Client"],"aiRouting":{"readBeforeUse":true,"fullDocumentationRequiredForValidation":true}},
-    {"id":"item-label","name":"ItemLabel","status":"documented","documentation":"../item-label-synthese.md","summary":"../item-label-synthese.md","universes":["Prospect","Client"],"aiRouting":{"readBeforeUse":true,"fullDocumentationRequiredForValidation":true}},
-    {"id":"item-menu","name":"ItemMenu","status":"documented","documentation":"../item-menu-synthese.md","summary":"../item-menu-synthese.md","universes":["Prospect","Client"],"aiRouting":{"readBeforeUse":true,"fullDocumentationRequiredForValidation":true}},
-    {"id":"item-message","name":"ItemMessage","status":"documented","documentation":"../item-message-synthese.md","summary":"../item-message-synthese.md","universes":["Prospect","Client"],"aiRouting":{"readBeforeUse":true,"fullDocumentationRequiredForValidation":true}},
-    {"id":"item-multi-select","name":"ItemMultiSelect","status":"documented","documentation":"../item-multi-select-synthese.md","summary":"../item-multi-select-synthese.md","universes":["Prospect","Client"],"aiRouting":{"readBeforeUse":true,"fullDocumentationRequiredForValidation":true}},
-    {"id":"item-tab-bar","name":"ItemTabBar","status":"documented","documentation":"../item-tab-bar-synthese.md","summary":"../item-tab-bar-synthese.md","universes":["Prospect","Client"],"aiRouting":{"readBeforeUse":true,"fullDocumentationRequiredForValidation":true}},
-    {"id":"level-selector","name":"LevelSelector","status":"documented","documentation":"../level-selector-synthese.md","summary":"../level-selector-synthese.md","universes":["Prospect","Client"],"aiRouting":{"readBeforeUse":true,"fullDocumentationRequiredForValidation":true}},
-    {"id":"link","name":"Link","status":"documented","documentation":"../link-synthese.md","summary":"../link-synthese.md","universes":["Prospect","Client"],"aiRouting":{"readBeforeUse":true,"fullDocumentationRequiredForValidation":true}},
-    {"id":"list","name":"List","status":"documented","documentation":"../list-synthese.md","summary":"../list-synthese.md","universes":["Prospect","Client"],"aiRouting":{"readBeforeUse":true,"fullDocumentationRequiredForValidation":true}},
-    {"id":"loader","name":"Loader","status":"documented","documentation":"../loader-synthese.md","summary":"../loader-synthese.md","universes":["Prospect","Client"],"aiRouting":{"readBeforeUse":true,"fullDocumentationRequiredForValidation":true}},
-    {"id":"menu-burger","name":"MenuBurger","status":"documented","documentation":"../menu-burger-synthese.md","summary":"../menu-burger-synthese.md","universes":["Prospect","Client"],"aiRouting":{"readBeforeUse":true,"fullDocumentationRequiredForValidation":true}},
-    {"id":"message","name":"Message","status":"documented","documentation":"../message-synthese.md","summary":"../message-synthese.md","universes":["Prospect","Client"],"aiRouting":{"readBeforeUse":true,"fullDocumentationRequiredForValidation":true}},
-    {"id":"message-bar","name":"MessageBar","status":"documented","documentation":"../message-bar-synthese.md","summary":"../message-bar-synthese.md","universes":["Prospect","Client"],"aiRouting":{"readBeforeUse":true,"fullDocumentationRequiredForValidation":true}},
-    {"id":"modal","name":"Modal","status":"documented","documentation":"../modal-synthese.md","summary":"../modal-synthese.md","universes":["Prospect","Client"],"aiRouting":{"readBeforeUse":true,"fullDocumentationRequiredForValidation":true}},
-    {"id":"multi-message","name":"MultiMessage","status":"documented","documentation":"../multi-message-synthese.md","summary":"../multi-message-synthese.md","universes":["Prospect","Client"],"aiRouting":{"readBeforeUse":true,"fullDocumentationRequiredForValidation":true}},
-    {"id":"multi-select-list","name":"MultiSelectList","status":"documented","documentation":"../multi-select-list-synthese.md","summary":"../multi-select-list-synthese.md","universes":["Prospect","Client"],"aiRouting":{"readBeforeUse":true,"fullDocumentationRequiredForValidation":true}},
-    {"id":"pagination","name":"Pagination","status":"documented","documentation":"../pagination-synthese.md","summary":"../pagination-synthese.md","universes":["Prospect","Client"],"aiRouting":{"readBeforeUse":true,"fullDocumentationRequiredForValidation":true}},
-    {"id":"progress-bar","name":"ProgressBar","status":"documented","documentation":"../progress-bar-synthese.md","summary":"../progress-bar-synthese.md","universes":["Prospect","Client"],"aiRouting":{"readBeforeUse":true,"fullDocumentationRequiredForValidation":true}},
-    {"id":"progress-bar-group","name":"ProgressBarGroup","status":"documented","documentation":"../progress-bar-group-synthese.md","summary":"../progress-bar-group-synthese.md","universes":["Prospect","Client"],"aiRouting":{"readBeforeUse":true,"fullDocumentationRequiredForValidation":true}},
-    {"id":"radio","name":"Radio","status":"documented","documentation":"../radio-synthese.md","summary":"../radio-synthese.md","universes":["Prospect","Client"],"aiRouting":{"readBeforeUse":true,"fullDocumentationRequiredForValidation":true}},
-    {"id":"radio-text","name":"RadioText","status":"documented","documentation":"../radio-text-synthese.md","summary":"../radio-text-synthese.md","universes":["Prospect","Client"],"aiRouting":{"readBeforeUse":true,"fullDocumentationRequiredForValidation":true}},
-    {"id":"skeleton","name":"Skeleton","status":"documented","documentation":"../skeleton-synthese.md","summary":"../skeleton-synthese.md","universes":["Prospect","Client"],"aiRouting":{"readBeforeUse":true,"fullDocumentationRequiredForValidation":true}},
-    {"id":"skeleton-grid","name":"SkeletonGrid","status":"documented","documentation":"../skeleton-grid-synthese.md","summary":"../skeleton-grid-synthese.md","universes":["Prospect","Client"],"aiRouting":{"readBeforeUse":true,"fullDocumentationRequiredForValidation":true}},
-    {"id":"skeleton-list","name":"SkeletonList","status":"documented","documentation":"../skeleton-list-synthese.md","summary":"../skeleton-list-synthese.md","universes":["Prospect","Client"],"aiRouting":{"readBeforeUse":true,"fullDocumentationRequiredForValidation":true}},
-    {"id":"spinner","name":"Spinner","status":"documented","documentation":"../spinner-synthese.md","summary":"../spinner-synthese.md","universes":["Prospect","Client"],"aiRouting":{"readBeforeUse":true,"fullDocumentationRequiredForValidation":true}},
-    {"id":"stepper","name":"Stepper","status":"documented","documentation":"../stepper-synthese.md","summary":"../stepper-synthese.md","universes":["Prospect","Client"],"aiRouting":{"readBeforeUse":true,"fullDocumentationRequiredForValidation":true}},
-    {"id":"svg","name":"Svg","status":"documented","documentation":"../svg-synthese.md","summary":"../svg-synthese.md","universes":["Prospect","Client"],"aiRouting":{"readBeforeUse":true,"fullDocumentationRequiredForValidation":true}},
-    {"id":"tab-bar","name":"TabBar","status":"documented","documentation":"../tab-bar-synthese.md","summary":"../tab-bar-synthese.md","universes":["Prospect","Client"],"aiRouting":{"readBeforeUse":true,"fullDocumentationRequiredForValidation":true}},
-    {"id":"tab-menu","name":"TabMenu","status":"documented","documentation":"../tab-menu-synthese.md","summary":"../tab-menu-synthese.md","universes":["Prospect","Client"],"aiRouting":{"readBeforeUse":true,"fullDocumentationRequiredForValidation":true}},
-    {"id":"table","name":"Table","status":"documented","documentation":"../table-synthese.md","summary":"../table-synthese.md","universes":["Prospect","Client"],"aiRouting":{"readBeforeUse":true,"fullDocumentationRequiredForValidation":true}},
-    {"id":"table-mobile-card","name":"TableMobileCard","status":"documented","documentation":"../table-mobile-card-synthese.md","summary":"../table-mobile-card-synthese.md","universes":["Prospect","Client"],"aiRouting":{"readBeforeUse":true,"fullDocumentationRequiredForValidation":true}},
-    {"id":"tag","name":"Tag","status":"documented","documentation":"../tag-synthese.md","summary":"../tag-synthese.md","universes":["Prospect","Client"],"aiRouting":{"readBeforeUse":true,"fullDocumentationRequiredForValidation":true}},
-    {"id":"tag-list","name":"TagList","status":"documented","documentation":"../tag-list-synthese.md","summary":"../tag-list-synthese.md","universes":["Prospect","Client"],"aiRouting":{"readBeforeUse":true,"fullDocumentationRequiredForValidation":true}},
-    {"id":"text-area","name":"TextArea","status":"documented","documentation":"../text-area-synthese.md","summary":"../text-area-synthese.md","universes":["Prospect","Client"],"aiRouting":{"readBeforeUse":true,"fullDocumentationRequiredForValidation":true}},
-    {"id":"timeline-vertical","name":"TimelineVertical","status":"documented","documentation":"../timeline-vertical-synthese.md","summary":"../timeline-vertical-synthese.md","universes":["Prospect","Client"],"aiRouting":{"readBeforeUse":true,"fullDocumentationRequiredForValidation":true}},
-    {"id":"toggle","name":"Toggle","status":"documented","documentation":"../toggle-synthese.md","summary":"../toggle-synthese.md","universes":["Prospect","Client"],"aiRouting":{"readBeforeUse":true,"fullDocumentationRequiredForValidation":true}}
+  "$schema": "./schemas/component-registry.schema.json",
+  "registryVersion": "0.2.0",
+  "designSystem": "Canopée",
+  "purpose": "Index machine-readable des composants et des sources disponibles pour reproduire des maquettes en prototypes. Une entrée dans ce registre ne certifie ni l'API technique dans tous les univers, ni la conformité complète du composant ; lire les fiches et vérifier le contexte du projet.",
+  "sourceOfTruthForIndex": "README.md",
+  "components": [
+    {
+      "id": "accordion",
+      "name": "Accordion",
+      "status": "documented",
+      "documentation": "../accordion-synthese.md",
+      "summary": "../accordion-synthese.md",
+      "universes": [
+        "Prospect",
+        "Client"
+      ],
+      "aiRouting": {
+        "readBeforeUse": true,
+        "fullDocumentationRequiredForValidation": true,
+        "verifyUniverseAndRuntime": true
+      }
+    },
+    {
+      "id": "accordion-contextual",
+      "name": "Accordion Contextual",
+      "status": "documented",
+      "documentation": "../accordion-contextual-synthese.md",
+      "summary": "../accordion-contextual-synthese.md",
+      "universes": [
+        "Prospect",
+        "Client"
+      ],
+      "aiRouting": {
+        "readBeforeUse": true,
+        "fullDocumentationRequiredForValidation": true,
+        "verifyUniverseAndRuntime": true
+      }
+    },
+    {
+      "id": "accordion-core",
+      "name": "Accordion Core",
+      "status": "documented",
+      "documentation": "../accordion-core-synthese.md",
+      "summary": "../accordion-core-synthese.md",
+      "universes": [
+        "Prospect",
+        "Client"
+      ],
+      "aiRouting": {
+        "readBeforeUse": true,
+        "fullDocumentationRequiredForValidation": true,
+        "verifyUniverseAndRuntime": true
+      }
+    },
+    {
+      "id": "app-name",
+      "name": "AppName",
+      "status": "documented",
+      "documentation": "../app-name-synthese.md",
+      "summary": "../app-name-synthese.md",
+      "universes": [
+        "Prospect",
+        "Client"
+      ],
+      "aiRouting": {
+        "readBeforeUse": true,
+        "fullDocumentationRequiredForValidation": true,
+        "verifyUniverseAndRuntime": true
+      }
+    },
+    {
+      "id": "base-picture",
+      "name": "BasePicture",
+      "status": "documented",
+      "documentation": "../base-picture-synthese.md",
+      "summary": "../base-picture-synthese.md",
+      "universes": [
+        "Prospect",
+        "Client"
+      ],
+      "aiRouting": {
+        "readBeforeUse": true,
+        "fullDocumentationRequiredForValidation": true,
+        "verifyUniverseAndRuntime": true
+      }
+    },
+    {
+      "id": "button-primary",
+      "name": "Button Primary",
+      "status": "documented",
+      "documentation": "../button-primary.md",
+      "summary": "../button-primary-synthese.md",
+      "universes": [
+        "Prospect",
+        "Client"
+      ],
+      "category": "action",
+      "implementation": {
+        "framework": "React",
+        "component": "Button",
+        "package": "@axa-fr/canopee-react/prospect",
+        "scope": "Prospect"
+      },
+      "variants": [
+        "Default",
+        "Business",
+        "Inverse"
+      ],
+      "states": [
+        "Default",
+        "Hover",
+        "Active",
+        "Disabled",
+        "Focus"
+      ],
+      "devices": [
+        "Desktop",
+        "Mobile"
+      ],
+      "storybook": "https://axafrance.github.io/design-system/prospect/react/latest/?path=/docs/components-button--button",
+      "zeroheight": "https://zeroheight.com/49b6215d6/v/latest/p/311401--test-v2-button-primary",
+      "knownLimitations": [
+        "Client React implementation not examined.",
+        "Exact TypeScript signatures are not certified.",
+        "Accessibility is not presented as WCAG/RGAA certification.",
+        "Figma JSON values are comparative when Storybook has priority."
+      ],
+      "aiRouting": {
+        "readBeforeUse": true,
+        "fullDocumentationRequiredForValidation": true,
+        "verifyUniverseAndRuntime": true
+      }
+    },
+    {
+      "id": "button-secondary",
+      "name": "Button Secondary",
+      "status": "documented",
+      "documentation": "../descriptions-zeroheight.md",
+      "summary": "../descriptions-zeroheight.md",
+      "sourceScope": "Zeroheight introduction only; no dedicated technical synthesis in this repository.",
+      "aiRouting": {
+        "readBeforeUse": true,
+        "fullDocumentationRequiredForValidation": true,
+        "verifyUniverseAndRuntime": true
+      }
+    },
+    {
+      "id": "button-tertiary",
+      "name": "Button Tertiary",
+      "status": "documented",
+      "documentation": "../descriptions-zeroheight.md",
+      "summary": "../descriptions-zeroheight.md",
+      "sourceScope": "Zeroheight introduction only; no dedicated technical synthesis in this repository.",
+      "aiRouting": {
+        "readBeforeUse": true,
+        "fullDocumentationRequiredForValidation": true,
+        "verifyUniverseAndRuntime": true
+      }
+    },
+    {
+      "id": "card",
+      "name": "Card",
+      "status": "documented",
+      "documentation": "../card-synthese.md",
+      "summary": "../card-synthese.md",
+      "universes": [
+        "Prospect",
+        "Client"
+      ],
+      "aiRouting": {
+        "readBeforeUse": true,
+        "fullDocumentationRequiredForValidation": true,
+        "verifyUniverseAndRuntime": true
+      }
+    },
+    {
+      "id": "card-checkbox",
+      "name": "CardCheckbox",
+      "status": "documented",
+      "documentation": "../card-checkbox-synthese.md",
+      "summary": "../card-checkbox-synthese.md",
+      "universes": [
+        "Prospect",
+        "Client"
+      ],
+      "aiRouting": {
+        "readBeforeUse": true,
+        "fullDocumentationRequiredForValidation": true,
+        "verifyUniverseAndRuntime": true
+      }
+    },
+    {
+      "id": "card-checkbox-group",
+      "name": "Card Checkbox Group",
+      "status": "documented",
+      "documentation": "../descriptions-zeroheight.md",
+      "summary": "../descriptions-zeroheight.md",
+      "sourceScope": "Zeroheight introduction only; no dedicated technical synthesis in this repository.",
+      "aiRouting": {
+        "readBeforeUse": true,
+        "fullDocumentationRequiredForValidation": true,
+        "verifyUniverseAndRuntime": true
+      }
+    },
+    {
+      "id": "card-checkbox-option",
+      "name": "CardCheckboxOption",
+      "status": "documented",
+      "documentation": "../card-checkbox-option-synthese.md",
+      "summary": "../card-checkbox-option-synthese.md",
+      "universes": [
+        "Prospect",
+        "Client"
+      ],
+      "aiRouting": {
+        "readBeforeUse": true,
+        "fullDocumentationRequiredForValidation": true,
+        "verifyUniverseAndRuntime": true
+      }
+    },
+    {
+      "id": "card-message",
+      "name": "CardMessage",
+      "status": "documented",
+      "documentation": "../card-message-synthese.md",
+      "summary": "../card-message-synthese.md",
+      "universes": [
+        "Prospect",
+        "Client"
+      ],
+      "aiRouting": {
+        "readBeforeUse": true,
+        "fullDocumentationRequiredForValidation": true,
+        "verifyUniverseAndRuntime": true
+      }
+    },
+    {
+      "id": "card-radio",
+      "name": "CardRadio",
+      "status": "documented",
+      "documentation": "../card-radio-synthese.md",
+      "summary": "../card-radio-synthese.md",
+      "universes": [
+        "Prospect",
+        "Client"
+      ],
+      "aiRouting": {
+        "readBeforeUse": true,
+        "fullDocumentationRequiredForValidation": true,
+        "verifyUniverseAndRuntime": true
+      }
+    },
+    {
+      "id": "card-radio-group",
+      "name": "CardRadioGroup",
+      "status": "documented",
+      "documentation": "../card-radio-group-synthese.md",
+      "summary": "../card-radio-group-synthese.md",
+      "universes": [
+        "Prospect",
+        "Client"
+      ],
+      "aiRouting": {
+        "readBeforeUse": true,
+        "fullDocumentationRequiredForValidation": true,
+        "verifyUniverseAndRuntime": true
+      }
+    },
+    {
+      "id": "checkbox",
+      "name": "Checkbox",
+      "status": "documented",
+      "documentation": "../checkbox-synthese.md",
+      "summary": "../checkbox-synthese.md",
+      "universes": [
+        "Prospect",
+        "Client"
+      ],
+      "aiRouting": {
+        "readBeforeUse": true,
+        "fullDocumentationRequiredForValidation": true,
+        "verifyUniverseAndRuntime": true
+      }
+    },
+    {
+      "id": "checkbox-text",
+      "name": "CheckboxText",
+      "status": "documented",
+      "documentation": "../checkbox-text-synthese.md",
+      "summary": "../checkbox-text-synthese.md",
+      "universes": [
+        "Prospect",
+        "Client"
+      ],
+      "aiRouting": {
+        "readBeforeUse": true,
+        "fullDocumentationRequiredForValidation": true,
+        "verifyUniverseAndRuntime": true
+      }
+    },
+    {
+      "id": "click-icon",
+      "name": "ClickIcon",
+      "status": "documented",
+      "documentation": "../click-icon-synthese.md",
+      "summary": "../click-icon-synthese.md",
+      "universes": [
+        "Prospect",
+        "Client"
+      ],
+      "aiRouting": {
+        "readBeforeUse": true,
+        "fullDocumentationRequiredForValidation": true,
+        "verifyUniverseAndRuntime": true
+      }
+    },
+    {
+      "id": "click-item",
+      "name": "ClickItem",
+      "status": "documented",
+      "documentation": "../click-item-synthese.md",
+      "summary": "../click-item-synthese.md",
+      "universes": [
+        "Prospect",
+        "Client"
+      ],
+      "aiRouting": {
+        "readBeforeUse": true,
+        "fullDocumentationRequiredForValidation": true,
+        "verifyUniverseAndRuntime": true
+      }
+    },
+    {
+      "id": "content-item-duo",
+      "name": "ContentItemDuo",
+      "status": "documented",
+      "documentation": "../content-item-duo-synthese.md",
+      "summary": "../content-item-duo-synthese.md",
+      "universes": [
+        "Prospect",
+        "Client"
+      ],
+      "aiRouting": {
+        "readBeforeUse": true,
+        "fullDocumentationRequiredForValidation": true,
+        "verifyUniverseAndRuntime": true
+      }
+    },
+    {
+      "id": "content-item-duo-action",
+      "name": "ContentItemDuoAction",
+      "status": "documented",
+      "documentation": "../content-item-duo-action-synthese.md",
+      "summary": "../content-item-duo-action-synthese.md",
+      "universes": [
+        "Prospect",
+        "Client"
+      ],
+      "aiRouting": {
+        "readBeforeUse": true,
+        "fullDocumentationRequiredForValidation": true,
+        "verifyUniverseAndRuntime": true
+      }
+    },
+    {
+      "id": "content-item-mono",
+      "name": "ContentItemMono",
+      "status": "documented",
+      "documentation": "../content-item-mono-synthese.md",
+      "summary": "../content-item-mono-synthese.md",
+      "universes": [
+        "Prospect",
+        "Client"
+      ],
+      "aiRouting": {
+        "readBeforeUse": true,
+        "fullDocumentationRequiredForValidation": true,
+        "verifyUniverseAndRuntime": true
+      }
+    },
+    {
+      "id": "data-agent",
+      "name": "DataAgent",
+      "status": "documented",
+      "documentation": "../data-agent-synthese.md",
+      "summary": "../data-agent-synthese.md",
+      "universes": [
+        "Prospect",
+        "Client"
+      ],
+      "aiRouting": {
+        "readBeforeUse": true,
+        "fullDocumentationRequiredForValidation": true,
+        "verifyUniverseAndRuntime": true
+      }
+    },
+    {
+      "id": "divider",
+      "name": "Divider",
+      "status": "documented",
+      "documentation": "../divider-synthese.md",
+      "summary": "../divider-synthese.md",
+      "universes": [
+        "Prospect",
+        "Client"
+      ],
+      "aiRouting": {
+        "readBeforeUse": true,
+        "fullDocumentationRequiredForValidation": true,
+        "verifyUniverseAndRuntime": true
+      }
+    },
+    {
+      "id": "dropdown",
+      "name": "Dropdown",
+      "status": "documented",
+      "documentation": "../dropdown-synthese.md",
+      "summary": "../dropdown-synthese.md",
+      "universes": [
+        "Prospect",
+        "Client"
+      ],
+      "aiRouting": {
+        "readBeforeUse": true,
+        "fullDocumentationRequiredForValidation": true,
+        "verifyUniverseAndRuntime": true
+      }
+    },
+    {
+      "id": "fieldset",
+      "name": "Fieldset",
+      "status": "documented",
+      "documentation": "../fieldset-synthese.md",
+      "summary": "../fieldset-synthese.md",
+      "universes": [
+        "Prospect",
+        "Client"
+      ],
+      "aiRouting": {
+        "readBeforeUse": true,
+        "fullDocumentationRequiredForValidation": true,
+        "verifyUniverseAndRuntime": true
+      }
+    },
+    {
+      "id": "file-upload",
+      "name": "FileUpload",
+      "status": "documented",
+      "documentation": "../file-upload-synthese.md",
+      "summary": "../file-upload-synthese.md",
+      "universes": [
+        "Prospect",
+        "Client"
+      ],
+      "aiRouting": {
+        "readBeforeUse": true,
+        "fullDocumentationRequiredForValidation": true,
+        "verifyUniverseAndRuntime": true
+      }
+    },
+    {
+      "id": "footer",
+      "name": "Footer",
+      "status": "documented",
+      "documentation": "../footer-synthese.md",
+      "summary": "../footer-synthese.md",
+      "universes": [
+        "Prospect",
+        "Client"
+      ],
+      "aiRouting": {
+        "readBeforeUse": true,
+        "fullDocumentationRequiredForValidation": true,
+        "verifyUniverseAndRuntime": true
+      }
+    },
+    {
+      "id": "header",
+      "name": "Header",
+      "status": "documented",
+      "documentation": "../header-synthese.md",
+      "summary": "../header-synthese.md",
+      "universes": [
+        "Prospect",
+        "Client"
+      ],
+      "aiRouting": {
+        "readBeforeUse": true,
+        "fullDocumentationRequiredForValidation": true,
+        "verifyUniverseAndRuntime": true
+      }
+    },
+    {
+      "id": "heading",
+      "name": "Heading",
+      "status": "documented",
+      "documentation": "../heading-synthese.md",
+      "summary": "../heading-synthese.md",
+      "universes": [
+        "Prospect",
+        "Client"
+      ],
+      "aiRouting": {
+        "readBeforeUse": true,
+        "fullDocumentationRequiredForValidation": true,
+        "verifyUniverseAndRuntime": true
+      }
+    },
+    {
+      "id": "icon",
+      "name": "Icon",
+      "status": "documented",
+      "documentation": "../icon-synthese.md",
+      "summary": "../icon-synthese.md",
+      "universes": [
+        "Prospect",
+        "Client"
+      ],
+      "aiRouting": {
+        "readBeforeUse": true,
+        "fullDocumentationRequiredForValidation": true,
+        "verifyUniverseAndRuntime": true
+      }
+    },
+    {
+      "id": "input-date",
+      "name": "InputDate",
+      "status": "documented",
+      "documentation": "../input-date-synthese.md",
+      "summary": "../input-date-synthese.md",
+      "universes": [
+        "Prospect",
+        "Client"
+      ],
+      "aiRouting": {
+        "readBeforeUse": true,
+        "fullDocumentationRequiredForValidation": true,
+        "verifyUniverseAndRuntime": true
+      }
+    },
+    {
+      "id": "input-file",
+      "name": "InputFile",
+      "status": "documented",
+      "documentation": "../input-file-synthese.md",
+      "summary": "../input-file-synthese.md",
+      "universes": [
+        "Prospect",
+        "Client"
+      ],
+      "aiRouting": {
+        "readBeforeUse": true,
+        "fullDocumentationRequiredForValidation": true,
+        "verifyUniverseAndRuntime": true
+      }
+    },
+    {
+      "id": "input-phone",
+      "name": "InputPhone",
+      "status": "documented",
+      "documentation": "../input-phone-synthese.md",
+      "summary": "../input-phone-synthese.md",
+      "universes": [
+        "Prospect",
+        "Client"
+      ],
+      "aiRouting": {
+        "readBeforeUse": true,
+        "fullDocumentationRequiredForValidation": true,
+        "verifyUniverseAndRuntime": true
+      }
+    },
+    {
+      "id": "input-text",
+      "name": "InputText",
+      "status": "documented",
+      "documentation": "../input-text-synthese.md",
+      "summary": "../input-text-synthese.md",
+      "universes": [
+        "Prospect",
+        "Client"
+      ],
+      "aiRouting": {
+        "readBeforeUse": true,
+        "fullDocumentationRequiredForValidation": true,
+        "verifyUniverseAndRuntime": true
+      }
+    },
+    {
+      "id": "item-file",
+      "name": "ItemFile",
+      "status": "documented",
+      "documentation": "../item-file-synthese.md",
+      "summary": "../item-file-synthese.md",
+      "universes": [
+        "Prospect",
+        "Client"
+      ],
+      "aiRouting": {
+        "readBeforeUse": true,
+        "fullDocumentationRequiredForValidation": true,
+        "verifyUniverseAndRuntime": true
+      }
+    },
+    {
+      "id": "item-label",
+      "name": "ItemLabel",
+      "status": "documented",
+      "documentation": "../item-label-synthese.md",
+      "summary": "../item-label-synthese.md",
+      "universes": [
+        "Prospect",
+        "Client"
+      ],
+      "aiRouting": {
+        "readBeforeUse": true,
+        "fullDocumentationRequiredForValidation": true,
+        "verifyUniverseAndRuntime": true
+      }
+    },
+    {
+      "id": "item-menu",
+      "name": "ItemMenu",
+      "status": "documented",
+      "documentation": "../item-menu-synthese.md",
+      "summary": "../item-menu-synthese.md",
+      "universes": [
+        "Prospect",
+        "Client"
+      ],
+      "aiRouting": {
+        "readBeforeUse": true,
+        "fullDocumentationRequiredForValidation": true,
+        "verifyUniverseAndRuntime": true
+      }
+    },
+    {
+      "id": "item-message",
+      "name": "ItemMessage",
+      "status": "documented",
+      "documentation": "../item-message-synthese.md",
+      "summary": "../item-message-synthese.md",
+      "universes": [
+        "Prospect",
+        "Client"
+      ],
+      "aiRouting": {
+        "readBeforeUse": true,
+        "fullDocumentationRequiredForValidation": true,
+        "verifyUniverseAndRuntime": true
+      }
+    },
+    {
+      "id": "item-multi-select",
+      "name": "ItemMultiSelect",
+      "status": "documented",
+      "documentation": "../item-multi-select-synthese.md",
+      "summary": "../item-multi-select-synthese.md",
+      "universes": [
+        "Prospect",
+        "Client"
+      ],
+      "aiRouting": {
+        "readBeforeUse": true,
+        "fullDocumentationRequiredForValidation": true,
+        "verifyUniverseAndRuntime": true
+      }
+    },
+    {
+      "id": "item-tab-bar",
+      "name": "ItemTabBar",
+      "status": "documented",
+      "documentation": "../item-tab-bar-synthese.md",
+      "summary": "../item-tab-bar-synthese.md",
+      "universes": [
+        "Prospect",
+        "Client"
+      ],
+      "aiRouting": {
+        "readBeforeUse": true,
+        "fullDocumentationRequiredForValidation": true,
+        "verifyUniverseAndRuntime": true
+      }
+    },
+    {
+      "id": "level-selector",
+      "name": "LevelSelector",
+      "status": "documented",
+      "documentation": "../level-selector-synthese.md",
+      "summary": "../level-selector-synthese.md",
+      "universes": [
+        "Prospect",
+        "Client"
+      ],
+      "aiRouting": {
+        "readBeforeUse": true,
+        "fullDocumentationRequiredForValidation": true,
+        "verifyUniverseAndRuntime": true
+      }
+    },
+    {
+      "id": "link",
+      "name": "Link",
+      "status": "documented",
+      "documentation": "../link-synthese.md",
+      "summary": "../link-synthese.md",
+      "universes": [
+        "Prospect",
+        "Client"
+      ],
+      "aiRouting": {
+        "readBeforeUse": true,
+        "fullDocumentationRequiredForValidation": true,
+        "verifyUniverseAndRuntime": true
+      }
+    },
+    {
+      "id": "list",
+      "name": "List",
+      "status": "documented",
+      "documentation": "../list-synthese.md",
+      "summary": "../list-synthese.md",
+      "universes": [
+        "Prospect",
+        "Client"
+      ],
+      "aiRouting": {
+        "readBeforeUse": true,
+        "fullDocumentationRequiredForValidation": true,
+        "verifyUniverseAndRuntime": true
+      }
+    },
+    {
+      "id": "loader",
+      "name": "Loader",
+      "status": "documented",
+      "documentation": "../loader-synthese.md",
+      "summary": "../loader-synthese.md",
+      "universes": [
+        "Prospect",
+        "Client"
+      ],
+      "aiRouting": {
+        "readBeforeUse": true,
+        "fullDocumentationRequiredForValidation": true,
+        "verifyUniverseAndRuntime": true
+      }
+    },
+    {
+      "id": "menu-burger",
+      "name": "MenuBurger",
+      "status": "documented",
+      "documentation": "../menu-burger-synthese.md",
+      "summary": "../menu-burger-synthese.md",
+      "universes": [
+        "Prospect",
+        "Client"
+      ],
+      "aiRouting": {
+        "readBeforeUse": true,
+        "fullDocumentationRequiredForValidation": true,
+        "verifyUniverseAndRuntime": true
+      }
+    },
+    {
+      "id": "message",
+      "name": "Message",
+      "status": "documented",
+      "documentation": "../message-synthese.md",
+      "summary": "../message-synthese.md",
+      "universes": [
+        "Prospect",
+        "Client"
+      ],
+      "aiRouting": {
+        "readBeforeUse": true,
+        "fullDocumentationRequiredForValidation": true,
+        "verifyUniverseAndRuntime": true
+      }
+    },
+    {
+      "id": "message-bar",
+      "name": "MessageBar",
+      "status": "documented",
+      "documentation": "../message-bar-synthese.md",
+      "summary": "../message-bar-synthese.md",
+      "universes": [
+        "Prospect",
+        "Client"
+      ],
+      "aiRouting": {
+        "readBeforeUse": true,
+        "fullDocumentationRequiredForValidation": true,
+        "verifyUniverseAndRuntime": true
+      }
+    },
+    {
+      "id": "modal",
+      "name": "Modal",
+      "status": "documented",
+      "documentation": "../modal-synthese.md",
+      "summary": "../modal-synthese.md",
+      "universes": [
+        "Prospect",
+        "Client"
+      ],
+      "aiRouting": {
+        "readBeforeUse": true,
+        "fullDocumentationRequiredForValidation": true,
+        "verifyUniverseAndRuntime": true
+      }
+    },
+    {
+      "id": "multi-message",
+      "name": "MultiMessage",
+      "status": "documented",
+      "documentation": "../multi-message-synthese.md",
+      "summary": "../multi-message-synthese.md",
+      "universes": [
+        "Prospect",
+        "Client"
+      ],
+      "aiRouting": {
+        "readBeforeUse": true,
+        "fullDocumentationRequiredForValidation": true,
+        "verifyUniverseAndRuntime": true
+      }
+    },
+    {
+      "id": "multi-select-list",
+      "name": "MultiSelectList",
+      "status": "documented",
+      "documentation": "../multi-select-list-synthese.md",
+      "summary": "../multi-select-list-synthese.md",
+      "universes": [
+        "Prospect",
+        "Client"
+      ],
+      "aiRouting": {
+        "readBeforeUse": true,
+        "fullDocumentationRequiredForValidation": true,
+        "verifyUniverseAndRuntime": true
+      }
+    },
+    {
+      "id": "pagination",
+      "name": "Pagination",
+      "status": "documented",
+      "documentation": "../pagination-synthese.md",
+      "summary": "../pagination-synthese.md",
+      "universes": [
+        "Prospect",
+        "Client"
+      ],
+      "aiRouting": {
+        "readBeforeUse": true,
+        "fullDocumentationRequiredForValidation": true,
+        "verifyUniverseAndRuntime": true
+      }
+    },
+    {
+      "id": "progress-bar",
+      "name": "ProgressBar",
+      "status": "documented",
+      "documentation": "../progress-bar-synthese.md",
+      "summary": "../progress-bar-synthese.md",
+      "universes": [
+        "Prospect",
+        "Client"
+      ],
+      "aiRouting": {
+        "readBeforeUse": true,
+        "fullDocumentationRequiredForValidation": true,
+        "verifyUniverseAndRuntime": true
+      }
+    },
+    {
+      "id": "progress-bar-group",
+      "name": "ProgressBarGroup",
+      "status": "documented",
+      "documentation": "../progress-bar-group-synthese.md",
+      "summary": "../progress-bar-group-synthese.md",
+      "universes": [
+        "Prospect",
+        "Client"
+      ],
+      "aiRouting": {
+        "readBeforeUse": true,
+        "fullDocumentationRequiredForValidation": true,
+        "verifyUniverseAndRuntime": true
+      }
+    },
+    {
+      "id": "radio",
+      "name": "Radio",
+      "status": "documented",
+      "documentation": "../radio-synthese.md",
+      "summary": "../radio-synthese.md",
+      "universes": [
+        "Prospect",
+        "Client"
+      ],
+      "aiRouting": {
+        "readBeforeUse": true,
+        "fullDocumentationRequiredForValidation": true,
+        "verifyUniverseAndRuntime": true
+      }
+    },
+    {
+      "id": "radio-text",
+      "name": "RadioText",
+      "status": "documented",
+      "documentation": "../radio-text-synthese.md",
+      "summary": "../radio-text-synthese.md",
+      "universes": [
+        "Prospect",
+        "Client"
+      ],
+      "aiRouting": {
+        "readBeforeUse": true,
+        "fullDocumentationRequiredForValidation": true,
+        "verifyUniverseAndRuntime": true
+      }
+    },
+    {
+      "id": "skeleton",
+      "name": "Skeleton",
+      "status": "documented",
+      "documentation": "../skeleton-synthese.md",
+      "summary": "../skeleton-synthese.md",
+      "universes": [
+        "Prospect",
+        "Client"
+      ],
+      "aiRouting": {
+        "readBeforeUse": true,
+        "fullDocumentationRequiredForValidation": true,
+        "verifyUniverseAndRuntime": true
+      }
+    },
+    {
+      "id": "skeleton-grid",
+      "name": "SkeletonGrid",
+      "status": "documented",
+      "documentation": "../skeleton-grid-synthese.md",
+      "summary": "../skeleton-grid-synthese.md",
+      "universes": [
+        "Prospect",
+        "Client"
+      ],
+      "aiRouting": {
+        "readBeforeUse": true,
+        "fullDocumentationRequiredForValidation": true,
+        "verifyUniverseAndRuntime": true
+      }
+    },
+    {
+      "id": "skeleton-list",
+      "name": "SkeletonList",
+      "status": "documented",
+      "documentation": "../skeleton-list-synthese.md",
+      "summary": "../skeleton-list-synthese.md",
+      "universes": [
+        "Prospect",
+        "Client"
+      ],
+      "aiRouting": {
+        "readBeforeUse": true,
+        "fullDocumentationRequiredForValidation": true,
+        "verifyUniverseAndRuntime": true
+      }
+    },
+    {
+      "id": "spinner",
+      "name": "Spinner",
+      "status": "documented",
+      "documentation": "../spinner-synthese.md",
+      "summary": "../spinner-synthese.md",
+      "universes": [
+        "Prospect",
+        "Client"
+      ],
+      "aiRouting": {
+        "readBeforeUse": true,
+        "fullDocumentationRequiredForValidation": true,
+        "verifyUniverseAndRuntime": true
+      }
+    },
+    {
+      "id": "stepper",
+      "name": "Stepper",
+      "status": "documented",
+      "documentation": "../stepper-synthese.md",
+      "summary": "../stepper-synthese.md",
+      "universes": [
+        "Prospect",
+        "Client"
+      ],
+      "aiRouting": {
+        "readBeforeUse": true,
+        "fullDocumentationRequiredForValidation": true,
+        "verifyUniverseAndRuntime": true
+      }
+    },
+    {
+      "id": "svg",
+      "name": "Svg",
+      "status": "documented",
+      "documentation": "../svg-synthese.md",
+      "summary": "../svg-synthese.md",
+      "universes": [
+        "Prospect",
+        "Client"
+      ],
+      "aiRouting": {
+        "readBeforeUse": true,
+        "fullDocumentationRequiredForValidation": true,
+        "verifyUniverseAndRuntime": true
+      }
+    },
+    {
+      "id": "tab-bar",
+      "name": "TabBar",
+      "status": "documented",
+      "documentation": "../tab-bar-synthese.md",
+      "summary": "../tab-bar-synthese.md",
+      "universes": [
+        "Prospect",
+        "Client"
+      ],
+      "aiRouting": {
+        "readBeforeUse": true,
+        "fullDocumentationRequiredForValidation": true,
+        "verifyUniverseAndRuntime": true
+      }
+    },
+    {
+      "id": "tab-menu",
+      "name": "TabMenu",
+      "status": "documented",
+      "documentation": "../tab-menu-synthese.md",
+      "summary": "../tab-menu-synthese.md",
+      "universes": [
+        "Prospect",
+        "Client"
+      ],
+      "aiRouting": {
+        "readBeforeUse": true,
+        "fullDocumentationRequiredForValidation": true,
+        "verifyUniverseAndRuntime": true
+      }
+    },
+    {
+      "id": "table",
+      "name": "Table",
+      "status": "documented",
+      "documentation": "../table-synthese.md",
+      "summary": "../table-synthese.md",
+      "universes": [
+        "Prospect",
+        "Client"
+      ],
+      "aiRouting": {
+        "readBeforeUse": true,
+        "fullDocumentationRequiredForValidation": true,
+        "verifyUniverseAndRuntime": true
+      }
+    },
+    {
+      "id": "table-mobile-card",
+      "name": "TableMobileCard",
+      "status": "documented",
+      "documentation": "../table-mobile-card-synthese.md",
+      "summary": "../table-mobile-card-synthese.md",
+      "universes": [
+        "Prospect",
+        "Client"
+      ],
+      "aiRouting": {
+        "readBeforeUse": true,
+        "fullDocumentationRequiredForValidation": true,
+        "verifyUniverseAndRuntime": true
+      }
+    },
+    {
+      "id": "tag",
+      "name": "Tag",
+      "status": "documented",
+      "documentation": "../tag-synthese.md",
+      "summary": "../tag-synthese.md",
+      "universes": [
+        "Prospect",
+        "Client"
+      ],
+      "aiRouting": {
+        "readBeforeUse": true,
+        "fullDocumentationRequiredForValidation": true,
+        "verifyUniverseAndRuntime": true
+      }
+    },
+    {
+      "id": "tag-list",
+      "name": "TagList",
+      "status": "documented",
+      "documentation": "../tag-list-synthese.md",
+      "summary": "../tag-list-synthese.md",
+      "universes": [
+        "Prospect",
+        "Client"
+      ],
+      "aiRouting": {
+        "readBeforeUse": true,
+        "fullDocumentationRequiredForValidation": true,
+        "verifyUniverseAndRuntime": true
+      }
+    },
+    {
+      "id": "text-area",
+      "name": "TextArea",
+      "status": "documented",
+      "documentation": "../text-area-synthese.md",
+      "summary": "../text-area-synthese.md",
+      "universes": [
+        "Prospect",
+        "Client"
+      ],
+      "aiRouting": {
+        "readBeforeUse": true,
+        "fullDocumentationRequiredForValidation": true,
+        "verifyUniverseAndRuntime": true
+      }
+    },
+    {
+      "id": "timeline-vertical",
+      "name": "TimelineVertical",
+      "status": "documented",
+      "documentation": "../timeline-vertical-synthese.md",
+      "summary": "../timeline-vertical-synthese.md",
+      "universes": [
+        "Prospect",
+        "Client"
+      ],
+      "aiRouting": {
+        "readBeforeUse": true,
+        "fullDocumentationRequiredForValidation": true,
+        "verifyUniverseAndRuntime": true
+      }
+    },
+    {
+      "id": "toggle",
+      "name": "Toggle",
+      "status": "documented",
+      "documentation": "../toggle-synthese.md",
+      "summary": "../toggle-synthese.md",
+      "universes": [
+        "Prospect",
+        "Client"
+      ],
+      "aiRouting": {
+        "readBeforeUse": true,
+        "fullDocumentationRequiredForValidation": true,
+        "verifyUniverseAndRuntime": true
+      }
+    }
   ]
 }
