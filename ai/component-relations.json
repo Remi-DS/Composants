@@ -1,19 +1,96 @@
 {
-  "$schema":"https://json-schema.org/draft/2020-12/schema",
-  "registryVersion":"0.1.0",
-  "designSystem":"Canopée",
-  "purpose":"Relations documentées ou explicitement qualifiées entre composants. Une relation technique ne constitue pas une permission de design.",
-  "relations":[
-    {"from":"button-secondary","to":"button-primary","type":"paired-with","status":"documented","rule":"Button Secondary accompagne toujours Button Primary.","source":"descriptions-zeroheight.md"},
-    {"from":"button-tertiary","to":"button-primary","type":"paired-with","status":"documented","rule":"Button Tertiary accompagne Button Primary et Button Secondary.","source":"descriptions-zeroheight.md"},
-    {"from":"input-text","to":"item-label","type":"composed-with","status":"implemented","rule":"InputText utilise ItemLabel.","source":"input-text-synthese.md"},
-    {"from":"input-text","to":"item-message","type":"composed-with","status":"implemented","rule":"InputText utilise ItemMessage pour les messages d'état.","source":"input-text-synthese.md"},
-    {"from":"header","to":"app-name","type":"composed-with","status":"implemented","rule":"Header rend AppName.","source":"header-synthese.md"},
-    {"from":"header","to":"tab-menu","type":"optional-composition","status":"implemented","rule":"Header peut rendre TabMenu.","source":"header-synthese.md"},
-    {"from":"header","to":"menu-burger","type":"optional-composition","status":"implemented","rule":"Header peut rendre MenuBurger.","source":"header-synthese.md"},
-    {"from":"header","to":"click-icon","type":"optional-composition","status":"implemented","rule":"Header peut rendre ClickIcon pour le menu mobile.","source":"header-synthese.md"},
-    {"from":"card-checkbox","to":"checkbox","type":"composed-with","status":"documented","rule":"Card Checkbox associe une carte et une case à cocher.","source":"descriptions-zeroheight.md"},
-    {"from":"card-radio","to":"radio","type":"composed-with","status":"documented","rule":"Card Radio associe Card et Radio.","source":"descriptions-zeroheight.md"},
-    {"from":"card-checkbox-group","to":"item-message","type":"composed-with","status":"documented","rule":"Card Checkbox Group associe Card et Item Message.","source":"descriptions-zeroheight.md"}
+  "$schema": "./schemas/component-relations.schema.json",
+  "registryVersion": "0.1.0",
+  "designSystem": "Canopée",
+  "purpose": "Relations documentées ou constatées entre composants pour aider à reproduire une maquette. Ces relations ne constituent pas à elles seules une obligation de composition dans une maquette.",
+  "relations": [
+    {
+      "from": "button-secondary",
+      "to": "button-primary",
+      "type": "paired-with",
+      "status": "documented",
+      "rule": "Button Secondary accompagne toujours Button Primary.",
+      "source": "descriptions-zeroheight.md"
+    },
+    {
+      "from": "button-tertiary",
+      "to": "button-primary",
+      "type": "paired-with",
+      "status": "documented",
+      "rule": "Button Tertiary accompagne Button Primary et Button Secondary.",
+      "source": "descriptions-zeroheight.md"
+    },
+    {
+      "from": "input-text",
+      "to": "item-label",
+      "type": "composed-with",
+      "status": "implemented",
+      "rule": "InputText utilise ItemLabel.",
+      "source": "input-text-synthese.md"
+    },
+    {
+      "from": "input-text",
+      "to": "item-message",
+      "type": "composed-with",
+      "status": "implemented",
+      "rule": "InputText utilise ItemMessage pour les messages d'état.",
+      "source": "input-text-synthese.md"
+    },
+    {
+      "from": "header",
+      "to": "app-name",
+      "type": "composed-with",
+      "status": "implemented",
+      "rule": "Header rend AppName.",
+      "source": "header-synthese.md"
+    },
+    {
+      "from": "header",
+      "to": "tab-menu",
+      "type": "optional-composition",
+      "status": "implemented",
+      "rule": "Header peut rendre TabMenu.",
+      "source": "header-synthese.md"
+    },
+    {
+      "from": "header",
+      "to": "menu-burger",
+      "type": "optional-composition",
+      "status": "implemented",
+      "rule": "Header peut rendre MenuBurger.",
+      "source": "header-synthese.md"
+    },
+    {
+      "from": "header",
+      "to": "click-icon",
+      "type": "optional-composition",
+      "status": "implemented",
+      "rule": "Header peut rendre ClickIcon pour le menu mobile.",
+      "source": "header-synthese.md"
+    },
+    {
+      "from": "card-checkbox",
+      "to": "checkbox",
+      "type": "composed-with",
+      "status": "documented",
+      "rule": "Card Checkbox associe une carte et une case à cocher.",
+      "source": "descriptions-zeroheight.md"
+    },
+    {
+      "from": "card-radio",
+      "to": "radio",
+      "type": "composed-with",
+      "status": "documented",
+      "rule": "Card Radio associe Card et Radio.",
+      "source": "descriptions-zeroheight.md"
+    },
+    {
+      "from": "card-checkbox-group",
+      "to": "item-message",
+      "type": "composed-with",
+      "status": "documented",
+      "rule": "Card Checkbox Group associe Card et Item Message.",
+      "source": "descriptions-zeroheight.md"
+    }
   ]
 }
