@@ -1,67 +1,65 @@
-# Checklist de validation IA — Canopée
+# Checklist — fidélité du prototype à la maquette
 
-## A — Composants
+Cette checklist évalue un prototype de test, pas une certification complète du Design System.
 
-- [ ] Chaque composant existe dans Canopée.
-- [ ] La bonne variante est utilisée.
-- [ ] Aucun composant ou variant n'a été inventé.
-- [ ] La documentation associée a été consultée.
+## A — Référence et couverture
 
-## B — Hiérarchie
+- [ ] Les maquettes sources réellement accessibles sont identifiées.
+- [ ] Tous les écrans/frames demandés sont reproduits.
+- [ ] Les états supplémentaires demandés sont couverts.
+- [ ] Aucun écran, bloc ou étape n'a été ajouté sans demande.
+- [ ] Les formats et dimensions de viewport attendus sont vérifiés.
 
-- [ ] Structure de page cohérente.
-- [ ] Hiérarchie des titres vérifiée.
-- [ ] Actions principales clairement identifiées.
+## B — Fidélité visuelle
 
-## C — États
+- [ ] Structure, ordre des sections et alignements comparés à la référence.
+- [ ] Hiérarchie, tailles et styles de texte comparés.
+- [ ] Textes, libellés, chiffres et contenus visibles reproduits.
+- [ ] Couleurs, bordures, ombres, rayons et espacements comparés.
+- [ ] Images, illustrations, logos et icônes correspondent aux ressources fournies.
+- [ ] Dimensions et proportions des composants comparées.
+- [ ] Les écarts liés aux ressources ou aux informations manquantes sont consignés.
 
-- [ ] Default
-- [ ] Hover
-- [ ] Active
-- [ ] Focus
-- [ ] Disabled
-- [ ] Autres états documentés si nécessaires.
+## C — Composants Canopée
 
-## D — Contenu
+- [ ] Les composants retenus existent dans le registre ou leur absence est signalée.
+- [ ] La synthèse de chaque composant utilisé a été consultée.
+- [ ] L'univers et l'API réellement disponibles dans le projet ont été vérifiés.
+- [ ] Aucune variante, valeur de style ou règle Canopée n'a été inventée.
+- [ ] Les différences entre la maquette et Canopée sont signalées, pas corrigées silencieusement.
+- [ ] Tout élément spécifique en HTML/CSS est justifié par l'indisponibilité d'un composant adapté.
 
-- [ ] Libellés cohérents.
-- [ ] Contenus réalistes pour le test.
-- [ ] Pas de texte utilisé pour masquer une hypothèse de design.
+## D — Interactions et comportement
 
-## E — Visuel
+- [ ] Chaque interaction demandée a été exécutée manuellement.
+- [ ] Les liens et boutons conduisent au résultat/destination attendu.
+- [ ] Les saisies et sélections restent utilisables.
+- [ ] Les états de formulaire demandés sont reproduits.
+- [ ] Navigation, retour, fermeture et progression fonctionnent lorsqu'ils sont prévus.
+- [ ] Aucun comportement métier non fourni n'a été inventé.
+- [ ] Les interactions non spécifiées sont listées comme non confirmées ou provisoires.
 
-- [ ] Tokens / valeurs vérifiés.
-- [ ] Espacements vérifiés.
-- [ ] Dimensions vérifiées.
-- [ ] Typographie vérifiée.
-- [ ] Couleurs vérifiées.
+## E — Responsive et accessibilité pragmatique
 
-## F — Responsive
+- [ ] Chaque viewport demandé a été comparé.
+- [ ] Aucun breakpoint ou comportement responsive non sourcé n'est présenté comme une règle Canopée.
+- [ ] Le clavier permet d'utiliser les interactions principales.
+- [ ] Le focus reste visible et l'ordre de tabulation est cohérent.
+- [ ] Les contrôles ont un nom accessible lorsque nécessaire.
+- [ ] Les problèmes connus sont consignés ; aucune certification WCAG/RGAA n'est revendiquée.
 
-- [ ] Desktop vérifié.
-- [ ] Mobile vérifié si concerné.
-- [ ] Aucun comportement responsive inventé.
+## F — Transparence
 
-## G — Accessibilité
+- [ ] Les sources effectivement consultées sont listées.
+- [ ] Les écarts visuels et fonctionnels sont explicites.
+- [ ] Les hypothèses provisoires sont séparées des faits documentés.
+- [ ] Les questions bloquantes sont formulées clairement.
 
-- [ ] Structure sémantique.
-- [ ] Navigation clavier.
-- [ ] Focus visible.
-- [ ] Nom accessible.
-- [ ] Contraste.
-- [ ] Ordre de tabulation.
-- [ ] Taille des cibles.
+## Verdict de livraison
 
-## H — Fiabilité
+- FIDÈLE — écarts mineurs documentés
+- FIDÈLE AVEC RÉSERVES
+- ÉCARTS IMPORTANTS
+- NON ÉVALUABLE — référence ou informations insuffisantes
 
-- [ ] Provenance de chaque règle critique.
-- [ ] Contradictions signalées.
-- [ ] Hypothèses explicites.
-- [ ] Informations non confirmées identifiées.
-
-## Verdict
-
-- `CONFORME`
-- `CONFORME AVEC RÉSERVES`
-- `NON CONFORME`
-- `NON DÉTERMINABLE`
+Le verdict décrit la fidélité à la maquette, pas une conformité globale au Design System.
