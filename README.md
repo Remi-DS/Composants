@@ -1,6 +1,6 @@
 # Canopée — AI-ready Design System
 
-Ce dépôt constitue la couche de connaissance exploitable par des agents IA pour concevoir des interfaces conformes au Design System Canopée.
+Ce dépôt fournit aux agents IA les connaissances nécessaires pour reproduire des maquettes existantes en prototypes interactifs avec les composants Canopée.
 
 ## Rôle des sources
 
@@ -21,7 +21,10 @@ En cas d'information absente, contradictoire ou non confirmée, elle doit le sig
 
 - `ai/component-registry.json` — registre machine-readable des composants.
 - `ai/prototype-brief.md` — brief type pour générer un prototype.
-- `ai/validation-checklist.md` — checklist de conformité.
+- `ai/validation-checklist.md` — checklist de fidélité visuelle et fonctionnelle du prototype.
+- `ai/composition-rules.md` — règles de reproduction d'une maquette sans inventer sa structure.
+- `ai/component-relations.json` — relations de composants sourcées.
+- `ai/responsive-grid.md` — repères responsive, à appliquer uniquement quand ils correspondent à la référence.
 - `.github/copilot-instructions.md` — règles générales pour les agents.
 - `.github/instructions/design-system.instructions.md` — règles de documentation et de provenance.
 - Documentation composant existante — référence détaillée sans duplication inutile.
@@ -33,15 +36,15 @@ En cas d'information absente, contradictoire ou non confirmée, elle doit le sig
 
 Les connaissances doivent conserver leur niveau de certitude : documenté, implémenté, observé, recommandation ou non confirmé.
 
-## Workflow recommandé
+## Workflow principal : maquette → prototype interactif
 
-1. Identifier les composants nécessaires.
-2. Consulter le registre et la documentation correspondante.
-3. Générer en réutilisant les composants existants.
-4. Vérifier variantes, états, responsive et accessibilité.
-5. Signaler explicitement toute hypothèse ou information non confirmée.
+1. Partir d'une frame Figma, d'une capture ou d'un export réellement accessible.
+2. Reproduire les écrans demandés sans inventer de structure ou de contenu.
+3. Consulter le registre et les fiches des composants Canopée retenus.
+4. Implémenter uniquement les interactions fournies par la maquette ou le brief.
+5. Comparer le rendu et tester les interactions ; consigner les écarts et les inconnues.
 
-Il est préférable de commencer avec 10–15 composants représentatifs avant d'étendre le registre à l'ensemble du Design System.
+Les fichiers de `ai/templates/` sont des exemples facultatifs (`RECOMMANDATION`), jamais des modèles de page obligatoires. Ce dépôt ne certifie pas la conformité globale au Design System.
 ## Button Primary
 
 La documentation du Button Primary suit un format antérieur, issu de Zeroheight et du Storybook :
